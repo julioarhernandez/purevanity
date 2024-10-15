@@ -70,7 +70,7 @@
     <link
       rel="stylesheet"
       href="{{
-        'assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css'
+        '/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css'
           | url
           | bust
       }}"
@@ -93,7 +93,7 @@
     />
     <link
       rel="stylesheet"
-      href="{{ '/assets/vendors/mellis-icons/style.c' | url | bust }}ss"
+      href="{{ '/assets/vendors/mellis-icons/style.css' | url | bust }}"
     />
     <link
       rel="stylesheet"
@@ -124,7 +124,7 @@
     <link
       rel="stylesheet"
       href="{{
-        'assets/vendors/bootstrap-select/css/bootstrap-select.min.css'
+        '/assets/vendors/bootstrap-select/css/bootstrap-select.min.css'
           | url
           | bust
       }}"
@@ -147,8 +147,11 @@
     />
 
     <!-- template styles -->
-    <link rel="stylesheet" href="assets/css/mellis.css" />
-    <link rel="stylesheet" href="assets/css/mellis-responsive.css" />
+    <link rel="stylesheet" href="{{ '/assets/css/mellis.css' | url | bust }}" />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/mellis-responsive.css' | url | bust }}"
+    />
   </head>
 
   <body>
@@ -158,103 +161,138 @@
     <!-- /.preloader -->
 
     <div class="page-wrapper">
-      <header class="main-header-three">
-        <nav class="main-menu main-menu-three">
-          <div class="main-menu-three__wrapper">
-            <div class="container">
-              <div class="main-menu-three__wrapper-inner">
-                <div class="main-menu-three__logo">
+      <header class="main-header">
+        <div class="main-header__top">
+          <div class="main-header__top-wrapper">
+            <div class="main-header__top-inner">
+              <div class="main-header__top-left">
+                <ul class="list-unstyled main-header__contact-list">
+                  <li>
+                    <div class="icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="text">
+                      <p>
+                        <a href="needhelp@company.com">needhelp@company.com</a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon">
+                      <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="text">
+                      <p><a href="tel:9288006930">+ 92 ( 8800 ) - 6930</a></p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="main-header__top-right">
+                <div class="main-header__social">
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="main-header__btn-box">
+                  <a href="contact.html" class="thm-btn main-header__btn"
+                    >Book now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <nav class="main-menu">
+          <div class="main-menu__wrapper">
+            <div class="main-menu__wrapper-inner">
+              <div class="main-menu__left">
+                <div class="main-menu__logo">
                   <a href="index.html"
-                    ><img src="assets/images/resources/logo-3.png" alt=""
+                    ><img src="/assets/images/resources/logo-1.png" alt=""
                   /></a>
                 </div>
-                <div class="main-menu-three__wrapper-inner-content">
-                  <div class="main-menu-three__search-box">
-                    <a
-                      href="#"
-                      class="main-menu-three__search search-toggler icon-magnifying-glass"
-                    ></a>
-                  </div>
-                  <div class="main-menu-three__main-menu-box">
-                    <a href="#" class="mobile-nav__toggler"
-                      ><i class="fa fa-bars"></i
-                    ></a>
-                    <ul class="main-menu__list">
+              </div>
+              <div class="main-menu__main-menu-box">
+                <a href="#" class="mobile-nav__toggler"
+                  ><i class="fa fa-bars"></i
+                ></a>
+                <ul class="main-menu__list">
+                  <li class="dropdown">
+                    <a href="index.html">Home </a>
+                    <ul>
+                      <li><a href="index.html">Home One</a></li>
+                      <li><a href="index2.html">Home Two</a></li>
+                      <li><a href="index3.html">Home Three</a></li>
                       <li class="dropdown">
-                        <a href="index.html">Home </a>
+                        <a href="#">Header Styles</a>
                         <ul>
-                          <li><a href="index.html">Home One</a></li>
-                          <li><a href="index2.html">Home Two</a></li>
-                          <li><a href="index3.html">Home Three</a></li>
-                          <li class="dropdown">
-                            <a href="#">Header Styles</a>
-                            <ul>
-                              <li><a href="index.html">Header One</a></li>
-                              <li><a href="index2.html">Header Two</a></li>
-                              <li><a href="index3.html">Header Three</a></li>
-                            </ul>
-                          </li>
+                          <li><a href="index.html">Header One</a></li>
+                          <li><a href="index2.html">Header Two</a></li>
+                          <li><a href="index3.html">Header Three</a></li>
                         </ul>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">Our Services</a>
-                        <ul>
-                          <li><a href="services.html">Services</a></li>
-                          <li>
-                            <a href="services-details-1.html"
-                              >Service Details One</a
-                            >
-                          </li>
-                          <li><a href="spa-facials.html">Spa Facials</a></li>
-                          <li><a href="massages.html">Massages</a></li>
-                          <li>
-                            <a href="hydro-therapy.html">Hydro Therapy</a>
-                          </li>
-                          <li><a href="thermo-stone.html">Thermo Stone</a></li>
-                          <li><a href="salt-&-aroma.html">Salt & Aroma</a></li>
-                          <li>
-                            <a href="body-treatments.html">Body Treatments</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">Pages</a>
-                        <ul>
-                          <li><a href="team.html">Team Members</a></li>
-                          <li>
-                            <a href="pricing-plans.html">Pricing Plans</a>
-                          </li>
-                          <li><a href="promotions.html">Promotions</a></li>
-                          <li><a href="gallery.html">Gallery</a></li>
-                          <li>
-                            <a href="client-stories.html">Client Stories</a>
-                          </li>
-                          <li>
-                            <a href="client-story-details.html"
-                              >Client Story Details</a
-                            >
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#">Shop</a>
-                        <ul>
-                          <li><a href="products.html">Products</a></li>
-                          <li>
-                            <a href="product-details.html">Product Details</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="contact.html">Contact</a>
                       </li>
                     </ul>
-                  </div>
-                  <div class="main-menu-three__cart-box">
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">Our Services</a>
+                    <ul>
+                      <li><a href="services.html">Services</a></li>
+                      <li>
+                        <a href="services-details-1.html"
+                          >Service Details One</a
+                        >
+                      </li>
+                      <li><a href="spa-facials.html">Spa Facials</a></li>
+                      <li><a href="massages.html">Massages</a></li>
+                      <li><a href="hydro-therapy.html">Hydro Therapy</a></li>
+                      <li><a href="thermo-stone.html">Thermo Stone</a></li>
+                      <li><a href="salt-&-aroma.html">Salt & Aroma</a></li>
+                      <li>
+                        <a href="body-treatments.html">Body Treatments</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">Pages</a>
+                    <ul>
+                      <li><a href="team.html">Team Members</a></li>
+                      <li><a href="pricing-plans.html">Pricing Plans</a></li>
+                      <li><a href="promotions.html">Promotions</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="client-stories.html">Client Stories</a></li>
+                      <li>
+                        <a href="client-story-details.html"
+                          >Client Story Details</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">Shop</a>
+                    <ul>
+                      <li><a href="products.html">Products</a></li>
+                      <li>
+                        <a href="product-details.html">Product Details</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="main-menu__right">
+                <div class="main-menu__search-cart-box">
+                  <div class="main-menu__search-box">
                     <a
                       href="#"
-                      class="main-menu-three__cart icon-shopping-cart"
+                      class="main-menu__search search-toggler icon-magnifying-glass"
                     ></a>
+                  </div>
+                  <div class="main-menu__cart-box">
+                    <a href="#" class="main-menu__cart icon-shopping-cart"></a>
                   </div>
                 </div>
               </div>
@@ -263,7 +301,7 @@
         </nav>
       </header>
 
-      <div class="stricky-header stricked-menu main-menu main-menu-three">
+      <div class="stricky-header stricked-menu main-menu">
         <div class="sticky-header__content"></div>
         <!-- /.sticky-header__content -->
       </div>
@@ -297,10 +335,10 @@
       <!--Site Footer Start-->
       <footer class="site-footer">
         <div class="site-footer__shape-1 float-bob-x">
-          <img src="assets/images/shapes/site-footer-shape-1.png" alt="" />
+          <img src="/assets/images/shapes/site-footer-shape-1.png" alt="" />
         </div>
         <div class="site-footer__shape-2 float-bob-y">
-          <img src="assets/images/shapes/site-footer-shape-2.png" alt="" />
+          <img src="/assets/images/shapes/site-footer-shape-2.png" alt="" />
         </div>
         <div class="container">
           <div class="site-footer__top">
@@ -333,7 +371,7 @@
                           class="footer-widget__newsletter-btn"
                         >
                           <img
-                            src="assets/images/icon/paper-plan-icon.png"
+                            src="/assets/images/icon/paper-plan-icon.png"
                             alt=""
                           />
                         </button>
@@ -424,7 +462,7 @@
 
         <div class="logo-box">
           <a href="index.html" aria-label="logo image"
-            ><img src="assets/images/resources/logo-3.png" width="90" alt=""
+            ><img src="/assets/images/resources/logo-3.png" width="90" alt=""
           /></a>
         </div>
         <!-- /.logo-box -->

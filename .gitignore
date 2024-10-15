@@ -5,5 +5,4 @@ node_modules
 /.idea
 .cache/
 .cache
-/src/assets/css/
 .DS_Store
