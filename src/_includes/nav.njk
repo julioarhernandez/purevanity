@@ -1,59 +1,31 @@
-<div class="nav-wrap">
-  <nav id="mainnav" class="mainnav">
-    <ul class="menu">
+<ul class="main-menu__list">
+  <li class="{% if page.url == '/' %}current{% endif %}">
+    <a href="/">Home </a>
+  </li>
+  <li class="{% if page.url == '/about-us/' %}current{% endif %}">
+    <a href="/about-us/">about us</a>
+  </li>
+  <li class="dropdown{% if page.url == '/services/' %} current{% endif %}">
+    <a href="/services/">Our Services</a>
+    <ul>
+      <li><a href="/services/">Services</a></li>
       <li>
-        <a href="/" title="">Home</a>
-
-        <!-- /.sub-menu -->
+        <a href="/services/services-details-1/">Service Details One</a>
       </li>
-      <li class="current-menu-item menu-item-has-children">
-        <a href="/about/" title="">About</a>
-        <ul class="sub-menu">
-          <li class="current-item">
-            <a href="/about/" title="">About Us</a>
-          </li>
-          <li><a href="team.html" title="">Team</a></li>
-          <li><a href="/faq/" title="">Faq</a></li>
-        </ul>
-        <!-- /.sub-menu -->
-      </li>
-      <li class="menu-item-has-children">
-        <a href="/services/" title="">Services</a>
-        <ul class="sub-menu">
-          <li><a href="/services/" title="">Services</a></li>
-          <li>
-            <a href="/services/service-detail/" title="">Service Details</a>
-          </li>
-        </ul>
-        <!-- /.sub-menu -->
-      </li>
-      <li class="menu-item-has-children">
-        <a href="/case-study/" title="">Case</a>
-        <ul class="sub-menu">
-          <li>
-            <a href="/case-study/" title="">Case Study</a>
-          </li>
-          <li>
-            <a href="/case-study/case-study-details/" title="">Case Details</a>
-          </li>
-        </ul>
-        <!-- /.sub-menu -->
-      </li>
-      <li class="menu-item-has-children">
-        <a href="/blog/" title="">Blog</a>
-        <ul class="sub-menu">
-          <li>
-            <a href="/blog/" title="">Blog Standard</a>
-          </li>
-          <li>
-            <a href="/blog/blog-detail/" title="">Blog Detail</a>
-          </li>
-        </ul>
-        <!-- /.sub-menu -->
-      </li>
+      <li><a href="spa-facials">Spa Facials</a></li>
+      <li><a href="massages">Massages</a></li>
       <li>
-        <a href="/contact/" title="">Contact</a>
+        <a href="hydro-therapy">Hydro Therapy</a>
+      </li>
+      <li><a href="thermo-stone">Thermo Stone</a></li>
+      <li><a href="salt-&-aroma">Salt & Aroma</a></li>
+      <li>
+        <a href="body-treatments">Body Treatments</a>
       </li>
     </ul>
-  </nav>
-</div>
+  </li>
+
+  <li class="{% if page.url == '/contact/' %}current{% endif %}">
+    <a href="/contact/">Contact</a>
+  </li>
+</ul>
