@@ -99,6 +99,9 @@ module.exports = function (eleventyConfig) {
 
     return JSON.stringify(obj, getCircularReplacer(), 4);
   });
+  eleventyConfig.addFilter("times", function (value, multiplier) {
+    return value * multiplier;
+  });
   // eleventyConfig.addFilter("filterTagList", tags => {
   //     // should match the list in tags.njk
   //     return (tags || []).filter(tag => ["post","articulos", "posts", "tagList", "all"].indexOf(tag) === -1);

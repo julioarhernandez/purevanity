@@ -155,8 +155,11 @@ permalink: /
         <div class="col-xl-6 col-lg-6">
           <div class="services-three__right">
             <p class="services-three__text">
-              There are many variations of passages of lorem Ipsum available,
-              but the majority simply free text now have suf-fered alteration.
+              At our clinic, we are dedicated to enhancing your natural beauty
+              and helping you achieve your aesthetic goals. Our comprehensive
+              range of services is designed to address various needs, from
+              non-surgical treatments like injectables to advanced rejuvenation
+              techniques.
             </p>
           </div>
         </div>
@@ -165,7 +168,7 @@ permalink: /
     <div class="services-three__bottom">
       <div class="row">
         <!--Services Three Single Start-->
-        <div
+        <!-- <div
           class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
           data-wow-delay="100ms"
         >
@@ -187,10 +190,10 @@ permalink: /
               eque porro.
             </p>
           </div>
-        </div>
+        </div> -->
         <!--Services Three Single End-->
         <!--Services Three Single Start-->
-        <div
+        <!-- <div
           class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
           data-wow-delay="200ms"
         >
@@ -212,10 +215,10 @@ permalink: /
               eque porro.
             </p>
           </div>
-        </div>
+        </div> -->
         <!--Services Three Single End-->
         <!--Services Three Single Start-->
-        <div
+        <!-- <div
           class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
           data-wow-delay="300ms"
         >
@@ -237,10 +240,10 @@ permalink: /
               eque porro.
             </p>
           </div>
-        </div>
+        </div> -->
         <!--Services Three Single End-->
         <!--Services Three Single Start-->
-        <div
+        <!-- <div
           class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
           data-wow-delay="400ms"
         >
@@ -262,8 +265,36 @@ permalink: /
               eque porro.
             </p>
           </div>
-        </div>
+        </div> -->
         <!--Services Three Single End-->
+
+        {% for serviceCategory in services.serviceCategories %} {% for service
+        in serviceCategory.services %}
+        <div
+          class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+          data-wow-delay="{{ loop.index0 | times(100) }}ms"
+        >
+          <div class="services-three__single">
+            <div class="services-three__shape-1">
+              <img
+                src="/assets/images/shapes/services-three-shape-1.png"
+                alt=""
+              />
+            </div>
+            <div class="services-three__icon">
+              <span class="{{ service.icon }}"></span>
+            </div>
+            <h3 class="services-three__title">
+              <a href="{{ service.title | slugify }}.html">{{
+                service.title
+              }}</a>
+            </h3>
+            <p class="services-three__text">
+              {{ service.smallDescription }}
+            </p>
+          </div>
+        </div>
+        {% endfor %} {% endfor %}
       </div>
       <div class="services-three__btn-box">
         <a href="services.html" class="services-three__btn thm-btn"

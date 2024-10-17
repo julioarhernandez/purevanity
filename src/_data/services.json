@@ -1,0 +1,118 @@
+{
+    "serviceCategories": [
+      {
+        "title": "Injectables",
+        "smallDescription": "Non-surgical treatments to enhance and restore facial features.",
+        "longDescription": "Injectables offer a range of non-invasive options that reduce wrinkles, restore volume, and stimulate collagen production to enhance your facial appearance. Safe, quick, and with minimal downtime, these treatments are designed to deliver natural-looking, youthful results.",
+        "services": [
+          {
+            "title": "Wrinkle Reducers",
+            "smallDescription": "Smooth out fine lines and dynamic wrinkles.",
+            "longDescription": "Wrinkle reducers such as Botox and Dysport temporarily relax muscles that cause dynamic wrinkles, such as crow’s feet, forehead lines, and frown lines. Results typically last 3-6 months, providing a smoother, younger appearance.",
+            "icon": "icon-meditation"
+          },
+          {
+            "title": "Dermal Fillers",
+            "smallDescription": "Restore volume and plumpness to facial features.",
+            "longDescription": "Dermal fillers, made from hyaluronic acid and other materials, are injected into areas like the lips, cheeks, and nasolabial folds to restore lost volume, smooth out wrinkles, and enhance facial contours for a youthful look.",
+            "icon": "icon-meditation"
+          },
+          {
+            "title": "Biostimulators",
+            "smallDescription": "Stimulate collagen for long-lasting volume.",
+            "longDescription": "Biostimulators like Sculptra and Radiesse promote collagen production, gradually improving volume and skin texture over time. These treatments offer a natural, long-lasting solution to aging skin.",
+            "icon": "icon-meditation"
+          }
+        ]
+      },
+      {
+        "title": "Facial Rejuvenation",
+        "smallDescription": "Rejuvenate and revitalize your complexion.",
+        "longDescription": "Our facial rejuvenation treatments aim to enhance your skin’s texture, tone, and overall appearance. Whether you're looking to treat sun damage, acne scars, or improve skin elasticity, our range of non-surgical procedures provides effective, glowing results.",
+        "services": [
+          {
+            "title": "Sculptra BBL",
+            "smallDescription": "Non-surgical Brazilian Butt Lift using Sculptra.",
+            "longDescription": "Sculptra BBL is a non-surgical alternative to traditional butt lifts, using injectable poly-L-lactic acid to stimulate collagen production, gradually enhancing volume and shape for a natural-looking lift.",
+            "icon": "icon-meditation"
+          },
+          {
+            "title": "Radiesse Jaw Contouring",
+            "smallDescription": "Define your jawline with Radiesse.",
+            "longDescription": "Radiesse is used to contour and define the jawline by providing volume and stimulating collagen production, giving you a stronger, more youthful jawline over time.",
+            "icon": "icon-meditation"
+          },
+          {
+            "title": "PRP Therapy",
+            "smallDescription": "Platelet-Rich Plasma for skin rejuvenation.",
+            "longDescription": "PRP Therapy uses your own blood’s platelets to stimulate skin repair and collagen production, promoting a smoother, firmer complexion. It's often used in conjunction with microneedling for enhanced results.",
+            "icon": "icon-meditation"
+          },
+          {
+            "title": "Microneedling",
+            "smallDescription": "Stimulate collagen with micro-injuries.",
+            "longDescription": "Microneedling uses tiny needles to create micro-injuries in the skin, prompting the body’s natural healing process to boost collagen production. This treatment helps improve skin texture, reduce fine lines, and minimize scars.",
+            "icon": "icon-meditation"
+          },
+          {
+            "title": "Chemical Peels",
+            "smallDescription": "Exfoliate and renew your skin.",
+            "longDescription": "Chemical peels use a blend of acids to exfoliate the top layer of skin, revealing a fresh, glowing complexion underneath. Ideal for treating pigmentation, fine lines, and uneven texture.",
+            "icon": "icon-meditation"
+          }
+        ]
+      },
+      {
+        "title": "Body Contouring & Fat Reduction",
+        "smallDescription": "Non-surgical solutions for fat loss and body shaping.",
+        "longDescription": "Our body contouring treatments use advanced technology to target stubborn fat and reshape areas of the body without the need for surgery. These treatments can help you achieve a slimmer, more contoured figure with minimal downtime.",
+        "services": [
+          {
+            "title": "Kybella",
+            "smallDescription": "Reduce chin fat with targeted injections.",
+            "longDescription": "Kybella is an FDA-approved injectable that destroys fat cells under the chin, resulting in a more defined jawline. It’s a non-surgical option for reducing the appearance of a double chin.",
+            "icon": "icon-meditation"
+          },
+          {
+            "title": "Body Contouring",
+            "smallDescription": "Non-invasive fat reduction for a sculpted look.",
+            "longDescription": "Using advanced techniques like CoolSculpting or SculpSure, our body contouring treatments freeze or heat fat cells, which are naturally eliminated by the body over time, leaving you with a slimmer, more contoured figure.",
+            "icon": "icon-meditation"
+          }
+        ]
+      },
+      {
+        "title": "Advanced Treatments",
+        "smallDescription": "Next-level aesthetic treatments for enhanced results.",
+        "longDescription": "Our advanced treatments include the latest innovations in aesthetics, designed to deliver dramatic improvements in skin texture, tone, and elasticity. These procedures are perfect for clients seeking cutting-edge results.",
+        "services": [
+          {
+            "title": "PDO Threads",
+            "smallDescription": "Non-surgical facelift with PDO threads.",
+            "longDescription": "PDO threads are a minimally invasive option to lift and tighten the skin. These dissolvable threads stimulate collagen production, providing a natural lift to areas like the jawline, cheeks, and neck.",
+            "icon": "icon-meditation"
+          },
+          {
+            "title": "Exosomes",
+            "smallDescription": "Regenerative therapy using exosomes.",
+            "longDescription": "Exosome therapy is a cutting-edge treatment that uses stem cell-derived exosomes to repair and regenerate skin tissue, reducing inflammation, boosting collagen, and improving skin texture.",
+            "icon": "icon-meditation"
+          }
+        ]
+      },
+      {
+        "title": "Weight Loss",
+        "smallDescription": "Medically supervised weight loss programs.",
+        "longDescription": "Our weight loss programs are designed to help you lose weight safely and effectively under medical supervision. We offer personalized plans that may include medications, dietary adjustments, and lifestyle coaching to help you achieve sustainable results.",
+        "services": [
+          {
+            "title": "Weight Loss",
+            "smallDescription": "Tailored weight loss programs for lasting results.",
+            "longDescription": "Our medically supervised weight loss programs are customized to each client’s needs, offering a holistic approach to weight loss through nutrition guidance, exercise plans, and FDA-approved medications.",
+            "icon": "icon-meditation"
+          }
+        ]
+      }
+    ]
+  }
+  
