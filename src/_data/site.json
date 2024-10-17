@@ -78,5 +78,7 @@
        }
     ],
     "themeColor": "#f7941d",
-    "productionUrl": "https://lawn.bizmarketing.us"
+    "productionUrl": "https://lawn.bizmarketing.us",
+    "phoneText": "(305) 302 1700",
+    "phoneUrl": "tel:+13053021700"
  }

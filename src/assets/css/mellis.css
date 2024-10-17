@@ -2184,10 +2184,10 @@ ul {
   line-height: 28px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  opacity: 0;
+  /* opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(-120px);
-  transform: translateY(-120px);
+  transform: translateY(-120px); */
   -webkit-transition-delay: 1000ms;
   transition-delay: 1000ms;
   -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
@@ -2211,10 +2211,10 @@ ul {
   line-height: 72px;
   margin-top: 28px;
   margin-bottom: 35px;
-  opacity: 0;
+  /* opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(-120px);
-  transform: translateY(-120px);
+  transform: translateY(-120px); */
   -webkit-transition-delay: 1000ms;
   transition-delay: 1000ms;
   -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
@@ -2226,10 +2226,10 @@ ul {
 .main-slider-two__btn-box {
   position: relative;
   display: block;
-  opacity: 0;
+  /* opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(120px);
-  transform: translateY(120px);
+  transform: translateY(120px); */
   -webkit-transition-delay: 1000ms;
   transition-delay: 1000ms;
   -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
@@ -5748,7 +5748,7 @@ ul {
   left: 0;
   right: 0;
   top: 0;
-  height: 380px;
+  height: 490px;
   background-color: var(--mellis-extra);
   z-index: -1;
 }
@@ -5768,6 +5768,7 @@ ul {
   display: block;
   margin-left: 140px;
   margin-top: -9px;
+  margin-bottom: 40px;
 }
 
 .services-three__bottom {
@@ -6191,7 +6192,7 @@ ul {
 }
 
 .spa-center-two__title-box {
-  border: 2px solid var(--mellis-white);
+  /* border: 2px solid var(--mellis-white); */
   padding: 26px 0 25px;
   max-width: 910px;
   margin: 0 auto;
@@ -6250,7 +6251,7 @@ ul {
 .three-points__list {
   position: relative;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-wrap: wrap;
 }
 
@@ -7939,7 +7940,7 @@ ul {
 .client-issues__points li {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .client-issues__points li .icon {
@@ -7954,10 +7955,15 @@ ul {
 }
 
 .client-issues__points li .icon span {
+
   position: relative;
-  display: inline-block;
-  font-size: 9px;
-  color: var(--mellis-white);
+    display: flex;
+    font-size: 9px;
+    color: var(--mellis-white);
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    width: 16px;
 }
 
 .client-issues__points li .text {
