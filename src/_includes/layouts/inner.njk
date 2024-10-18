@@ -159,9 +159,9 @@
   </head>
 
   <body>
-    <div class="preloader">
+    <!-- <div class="preloader">
       <div class="preloader__image"></div>
-    </div>
+    </div> -->
     <!-- /.preloader -->
 
     <div class="page-wrapper">
@@ -177,7 +177,7 @@
                     </div>
                     <div class="text">
                       <p>
-                        <a href="needhelp@company.com">needhelp@company.com</a>
+                        <a href="{{ site.email }}">{{ site.email }}</a>
                       </p>
                     </div>
                   </li>
@@ -217,8 +217,9 @@
                 <div class="main-menu__logo">
                   <a href="/"
                     ><img
-                      src="/assets/images/logo/pv-logo-white-horizontal.png"
+                      src="/assets/images/logo/pv-logo-black-3.png"
                       alt=""
+                      width="160"
                   /></a>
                 </div>
               </div>
@@ -263,7 +264,7 @@
         <div class="container">
           <div class="page-header__inner">
             <ul class="thm-breadcrumb list-unstyled">
-              <li><a href="index.html">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li><span>/</span></li>
               <li>{{ title }}</li>
             </ul>
@@ -294,9 +295,7 @@
               >
                 <div class="footer-widget__column footer-widget__contact-box">
                   <div class="footer-widget__contact">
-                    <a href="mailto:needhelp@company.com"
-                      >needhelp@company.com</a
-                    >
+                    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
                     <a href="{{ site.phoneUrl }}">{{ site.phoneText }}</a>
                   </div>
                   <div class="footer-widget__contact-form-box">
@@ -369,8 +368,8 @@
                     <a href="#"><i class="fab fa-instagram"></i></a>
                   </div>
                   <p>
-                    66 Broklyn Golden Street <br />
-                    New York. USA
+                    {{ site.address }} <br />
+                    {{ site.address2 }}
                   </p>
                 </div>
               </div>
@@ -381,7 +380,8 @@
               <div class="col-xl-12">
                 <div class="site-footer__bottom-inner">
                   <p class="site-footer__bottom-text">
-                    © Copyright 2023 by <a href="#">pure-vanity.com</a>
+                    © Copyright 2024 by
+                    <a href="https://www.bizmarketing.us/">bizmarketing.us</a>
                   </p>
                   <ul class="list-unstyled site-footer__bottom-menu">
                     <li><a href="#">Help</a></li>

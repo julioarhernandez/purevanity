@@ -1,7 +1,7 @@
 ---
 layout: layouts/inner.njk
-title: "titl"
-excerpt: "title"
+title: "Contact"
+excerpt: "Contact"
 permalink: /contact/
 ---
 
@@ -9,59 +9,21 @@ permalink: /contact/
 <section class="spa-center-three">
   <div class="container">
     <div class="section-title text-center">
-      <span class="section-title__tagline">Locations</span>
-      <h2 class="section-title__title">Our Spa Centers</h2>
+      <span class="section-title__tagline">Location</span>
+      <h2 class="section-title__title">Our Spa Center</h2>
     </div>
     <div class="row">
-      <div class="col-xl-3 col-lg-6 col-md-6">
+      <div class="col-xl-6 col-lg-6 col-md-6 m-auto text-center">
         <div class="spa-center-three__single">
-          <h3 class="spa-center-three__title">Austin</h3>
+          <h3 class="spa-center-three__title">Broward County</h3>
           <p class="spa-center-three__text">
-            22 Texas West Hills <br />
-            Mon - Fri: 9:00 to 19:00
+            {{ site.address }} <br />
+            {{ site.address2 }}<br />
+            Mon - Fri: 9:00 to 19:00<br />
           </p>
           <div class="spa-center-three__contact">
-            <a href="mailto:needhelp@company.com">needhelp@company.com</a>
-            <a href="tel:8889990000">888 999 0000</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-6 col-md-6">
-        <div class="spa-center-three__single">
-          <h3 class="spa-center-three__title">Boston</h3>
-          <p class="spa-center-three__text">
-            22 Texas West Hills <br />
-            Mon - Fri: 9:00 to 19:00
-          </p>
-          <div class="spa-center-three__contact">
-            <a href="mailto:needhelp@company.com">needhelp@company.com</a>
-            <a href="tel:8889990000">888 999 0000</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-6 col-md-6">
-        <div class="spa-center-three__single">
-          <h3 class="spa-center-three__title">New York</h3>
-          <p class="spa-center-three__text">
-            22 Texas West Hills <br />
-            Mon - Fri: 9:00 to 19:00
-          </p>
-          <div class="spa-center-three__contact">
-            <a href="mailto:needhelp@company.com">needhelp@company.com</a>
-            <a href="tel:8889990000">888 999 0000</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-3 col-lg-6 col-md-6">
-        <div class="spa-center-three__single">
-          <h3 class="spa-center-three__title">Baltomore</h3>
-          <p class="spa-center-three__text">
-            22 Texas West Hills <br />
-            Mon - Fri: 9:00 to 19:00
-          </p>
-          <div class="spa-center-three__contact">
-            <a href="mailto:needhelp@company.com">needhelp@company.com</a>
-            <a href="tel:8889990000">888 999 0000</a>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            <a href="{{ site.phoneUrl }}">{{ site.phoneText }}</a>
           </div>
         </div>
       </div>
