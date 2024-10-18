@@ -187,7 +187,7 @@
                     </div>
                     <div class="text">
                       <p>
-                        <a href="{{ site.phoneUrl }}">+ 92 ( 8800 ) - 6930</a>
+                        <a href="{{ site.phoneUrl }}">{{ site.phoneText }}</a>
                       </p>
                     </div>
                   </li>
@@ -385,7 +385,7 @@
                   </p>
                   <ul class="list-unstyled site-footer__bottom-menu">
                     <li><a href="#">Help</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="/privacy/">Privacy Policy</a></li>
                   </ul>
                 </div>
               </div>
@@ -417,13 +417,11 @@
         <ul class="mobile-nav__contact list-unstyled">
           <li>
             <i class="fa fa-envelope"></i>
-            <a href="mailto:needhelp@packageName__.com"
-              >needhelp@pure-vanity.com</a
-            >
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
           </li>
           <li>
             <i class="fa fa-phone-alt"></i>
-            <a href="tel:666-888-0000">666 888 0000</a>
+            <a href="{{ site.phoneUrl }}">{{ site.phoneText }}</a>
           </li>
         </ul>
         <!-- /.mobile-nav__contact -->

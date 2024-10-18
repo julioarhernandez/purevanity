@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ service.title }}</title>
-    <meta name="description" content="{{ service.smallDescription }}" />
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ meta }}" />
     <!-- favicons Icons -->
     <link
       rel="apple-touch-icon"
@@ -156,6 +156,16 @@
       rel="stylesheet"
       href="{{ '/assets/css/pure-vanity-responsive.css' | url | bust }}"
     />
+    <style>
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 20px 0;
+      }
+    </style>
   </head>
 
   <body>
@@ -266,89 +276,21 @@
             <ul class="thm-breadcrumb list-unstyled">
               <li><a href="/">Home</a></li>
               <li><span>/</span></li>
-              <li><a href="/services/">Services</a></li>
-              <li><span>/</span></li>
-              <li>{{ service.title }}</li>
+              <li>{{ title }}</li>
             </ul>
-            <h2>{{ service.title }}</h2>
+            <h2>{{ title }}</h2>
           </div>
         </div>
       </section>
       <!--Page Header End-->
 
-      <section class="services-details-two">
+      <section class="spa-center-three">
         <div class="container">
           <div class="row">
-            <div class="col-xl-4 col-lg-5">
-              <div class="services-details-two__left">
-                <div class="services-details-two__category">
-                  {% include "service-detail-nav.njk" %}
-                  <!-- <ul class="services-details-two__category-list list-unstyled">
-                    <li>
-                      <a href="spa-facials.html"
-                        >Spa Facials <i class="fa fa-angle-right"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="massages.html"
-                        >Massages <i class="fa fa-angle-right"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="hydro-therapy.html"
-                        >Hydro Therapy <i class="fa fa-angle-right"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="thermo-stone.html"
-                        >Thermo Stone <i class="fa fa-angle-right"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a href="salt-&-aroma.html"
-                        >Salt & Aroma <i class="fa fa-angle-right"></i
-                      ></a>
-                    </li>
-                    <li class="active">
-                      <a href="body-treatments.html"
-                        >Body Treatments <i class="fa fa-angle-right"></i
-                      ></a>
-                    </li>
-                  </ul> -->
-                </div>
-                <div class="services-details-two__help-line">
-                  <div class="services-details-two__help-line-img">
-                    <img
-                      src="/assets/images/services/services-details-two-help-line-img-1.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="services-details-two__help-line-content">
-                    <div class="services-details-two__help-line-icon">
-                      <span class="icon-telephone-call"></span>
-                    </div>
-                    <p class="services-details-two__help-line-sub-title">
-                      Book for You
-                    </p>
-                    <h3 class="services-details-two__help-number">
-                      <a href="tel:9288006839">+ 92 ( 8800 ) 6839</a>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-8 col-lg-7">
-              <div class="services-details-two__right">
-                <div class="services-details-two__img">
-                  <img src="{{ service.image }}" alt="" />
-                </div>
-                <h3 class="services-details-two__title-1">
-                  {{ service.title }}
-                </h3>
-                {% set longDescriptionPath = "service-pages/" ~
-                service.longDescription | slug %} {% include longDescriptionPath
-                %} {% set data = service.faq %} {% include "faq.njk"%}
-              </div>
+            <div class="col-12">
+              {%- block content %}
+              {{ content | safe }}
+              {%- endblock %}
             </div>
           </div>
         </div>
