@@ -1,20 +1,6 @@
-{% set faqs = { "faq": [ { "question": "What is the right spa for me?",
-"answer": "There are many variations of passages of available but the majority
-have in that some form by injected randomised words which don’t look even as
-slightly believable now." }, { "question": "Do they offer spa treatments for
-men?", "answer": "There are many variations of passages of available but the
-majority have in that some form by injected randomised words which don’t look
-even as slightly believable now." }, { "question": "Should I eat before a
-massage?", "answer": "There are many variations of passages of available but the
-majority have in that some form by injected randomised words which don’t look
-even as slightly believable now." }, { "question": "Should I shower before a
-treatment?", "answer": "There are many variations of passages of available but
-the majority have in that some form by injected randomised words which don’t
-look even as slightly believable now." } ] } %}
-
 <div class="services-details-two__faq">
   <div class="accrodion-grp" data-grp-name="faq-one-accrodion">
-    {% for item in faqs.faq %}
+    {% for item in data %}
     <div class="accrodion{% if loop.index === 1 %} active{% endif %}">
       <div class="accrodion-title">
         <h4>{{ item.question }}</h4>

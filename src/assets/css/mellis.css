@@ -6904,7 +6904,7 @@ ul {
   position: relative;
   display: block;
   background-color: var(--mellis-extra);
-  padding: 34px 20px 34px;
+  padding: 40px 30px 34px;
   margin-bottom: 30px;
 }
 
@@ -6913,10 +6913,54 @@ ul {
   display: block;
 }
 
+.services-details-two__category-list__title-wrapper {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.services-details-two__category-list__title-wrapper i{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  height: 28px;
+  width: 28px;
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--mellis-base);
+  font-size: 14px;
+  transform: translateY(-50%);
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.services-details-two__category-list__title-wrapper h1,
+.services-details-two__category-list__title-wrapper h2,
+.services-details-two__category-list__title-wrapper h3,
+.services-details-two__category-list__title-wrapper h4,
+.services-details-two__category-list__title-wrapper h5,
+.services-details-two__category-list__title-wrapper h6{
+  padding-left: 35px;
+}
+
 .services-details-two__category-list li {
   position: relative;
   display: block;
 }
+
+.services-details-two__category-list li h1, 
+.services-details-two__category-list li h2,
+.services-details-two__category-list li h3,
+.services-details-two__category-list li h4,
+.services-details-two__category-list li h5,
+.services-details-two__category-list li h6{
+  font-size: 18px;
+  font-weight: 700;
+}
+
 
 .services-details-two__category-list li a {
   position: relative;
@@ -6925,26 +6969,28 @@ ul {
   font-size: 16px;
   font-weight: 600;
   color: var(--mellis-gray);
-  padding: 15px 80px 15px;
+  padding: 8px 60px 8px 45px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   z-index: 1;
 }
 
-.services-details-two__category-list li:hover a {
+.services-details-two__category-list .service-details-sublist li:hover a {
   background-color: var(--mellis-white);
+  border-radius: 5px;
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07)
 }
 
-.services-details-two__category-list li.active a {
-  background-color: var(--mellis-white);
+.services-details-two__category-list .service-details-sublist li.active a {
+  background-color: #ffffff66;
+  border-radius: 5px;
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.07)
 }
 
-.services-details-two__category-list li a i {
+.services-details-two__category-list .service-details-sublist li a i {
   position: absolute;
   top: 50%;
-  left: 30px;
+  left: 5px;
   height: 28px;
   width: 28px;
   background-color: var(--mellis-white);
@@ -6959,12 +7005,12 @@ ul {
   transition: all 500ms ease;
 }
 
-.services-details-two__category-list li:hover a i {
+.services-details-two__category-list .service-details-sublist li:hover a i {
   background-color: var(--mellis-base);
   color: var(--mellis-white);
 }
 
-.services-details-two__category-list li.active a i {
+.services-details-two__category-list .service-details-sublist li.active a i {
   background-color: var(--mellis-base);
   color: var(--mellis-white);
 }

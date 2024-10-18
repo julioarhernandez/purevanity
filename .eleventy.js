@@ -128,6 +128,18 @@ module.exports = function (eleventyConfig) {
     return `${urlPart}?${params}`;
   });
 
+  // Custom split filter
+  eleventyConfig.addFilter("split", function (value, delimiter) {
+    return value ? value.split(delimiter).filter((part) => part !== "") : [];
+  });
+
+  // Custom last filter
+  eleventyConfig.addFilter("last", function (array) {
+    return Array.isArray(array) && array.length
+      ? array[array.length - 1]
+      : undefined;
+  });
+
   eleventyConfig.addCollection("services", function () {
     // Load the JSON data
     const servicesData = require("./src/_data/services.json");
@@ -144,6 +156,7 @@ module.exports = function (eleventyConfig) {
           longDescription: service.longDescription,
           icon: service.icon,
           image: service.image,
+          faq: service.faq,
         });
       });
     });

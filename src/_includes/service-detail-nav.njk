@@ -1,0 +1,28 @@
+<ul class="services-details-two__category-list list-unstyled">
+  <!-- Loop through service categories from JSON -->
+  {% for category in services.serviceCategories %}
+  <li>
+    <div class="services-details-two__category-list__title-wrapper">
+      <i class="fa fa-spa"></i>
+      <h4>{{ category.title }}</h4>
+    </div>
+    <ul class="list-unstyled py-4 service-details-sublist">
+      <!-- Loop through services within each category -->
+      {% for service in category.services %} {% set url_slug = page.url |
+      split('/') | last %} {% if url_slug == (service.title | slug) %} {% set
+      activeClass = "active" %} {% else %} {% set activeClass = "" %} {% endif
+      %}
+      <li class="{{ activeClass }}">
+        <a
+          href="/services/{{ category.title | slug }}/{{
+            service.title | slug
+          }}"
+        >
+          {{ service.title }}<i class="fa fa-angle-right"></i>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ul>
