@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title }}</title>
+    <title>{{ service.title }}</title>
     <meta name="description" content="{{ meta }}" />
     <!-- favicons Icons -->
     <link
@@ -262,9 +262,11 @@
             <ul class="thm-breadcrumb list-unstyled">
               <li><a href="index.html">Home</a></li>
               <li><span>/</span></li>
-              <li>{{ title }}</li>
+              <li><a href="/services/">Services</a></li>
+              <li><span>/</span></li>
+              <li>{{ service.title }}</li>
             </ul>
-            <h2>{{ title }}</h2>
+            <h2>{{ service.title }}</h2>
           </div>
         </div>
       </section>

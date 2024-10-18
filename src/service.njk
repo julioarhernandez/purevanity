@@ -1,0 +1,10 @@
+---
+layout: layouts/service.njk
+title: "{{ service.title }}"
+meta: "{{service.smallDescription}}"
+pagination:
+  data: collections.services
+  size: 1
+  alias: service # Alias for each service in pagination
+permalink: "/services/{{ service.category | slug }}/{{ service.title | slug }}/"
+---

@@ -5,55 +5,32 @@
   <li class="{% if page.url == '/about-us/' %}current{% endif %}">
     <a href="/about-us/">About us</a>
   </li>
+
   <li class="dropdown{% if page.url == '/services/' %} current{% endif %}">
     <a href="/services/">Our Services</a>
     <ul>
-      <!-- Injectables (Anti-Aging & Volume Restoration) -->
+      <!-- Loop through service categories from JSON -->
+      {% for category in services.serviceCategories %}
       <li class="dropdown">
-        <a href="/services/injectables">Injectables</a>
+        <a href="#" title="/services/{{ category.title | slug }}">{{
+          category.title
+        }}</a>
         <ul>
-          <li><a href="/services/wrinkle-reducers">Wrinkle Reducers</a></li>
-          <li><a href="/services/dermal-fillers">Dermal Fillers</a></li>
-          <li><a href="/services/biostimulators">Biostimulators</a></li>
-        </ul>
-      </li>
-
-      <!-- Facial Rejuvenation -->
-      <li class="dropdown">
-        <a href="/services/facial-rejuvenation">Facial Rejuvenation</a>
-        <ul>
-          <li><a href="/services/sculptra-bbl">Sculptra BBL</a></li>
+          <!-- Loop through services within each category -->
+          {% for service in category.services %}
           <li>
-            <a href="/services/radiesse-jaw-contouring"
-              >Radiesse Jaw Contouring</a
+            <a
+              href="/services/{{ category.title | slug }}/{{
+                service.title | slug
+              }}"
             >
+              {{ service.title }}
+            </a>
           </li>
-          <li><a href="/services/prp-therapy">PRP Therapy</a></li>
-          <li><a href="/services/microneedling">Microneedling</a></li>
-          <li><a href="/services/chemical-peels">Chemical Peels</a></li>
+          {% endfor %}
         </ul>
       </li>
-
-      <!-- Body Contouring & Fat Reduction -->
-      <li class="dropdown">
-        <a href="/services/body-contouring">Body Contouring & Fat Reduction</a>
-        <ul>
-          <li><a href="/services/kybella">Kybella</a></li>
-          <li><a href="/services/body-contouring">Body Contouring</a></li>
-        </ul>
-      </li>
-
-      <!-- Advanced Treatments -->
-      <li class="dropdown">
-        <a href="/services/advanced-treatments">Advanced Treatments</a>
-        <ul>
-          <li><a href="/services/pdo-threads">PDO Threads</a></li>
-          <li><a href="/services/exosomes">Exosomes</a></li>
-        </ul>
-      </li>
-
-      <!-- Weight Loss -->
-      <li><a href="/services/weight-loss">Weight Loss</a></li>
+      {% endfor %}
     </ul>
   </li>
 

@@ -127,6 +127,30 @@ module.exports = function (eleventyConfig) {
     params.set("v", DateTime.local().toFormat("X"));
     return `${urlPart}?${params}`;
   });
+
+  eleventyConfig.addCollection("services", function () {
+    // Load the JSON data
+    const servicesData = require("./src/_data/services.json");
+
+    // Flatten the service categories and their services into individual service objects
+    const services = [];
+    servicesData.serviceCategories.forEach((category) => {
+      category.services.forEach((service) => {
+        services.push({
+          category: category.title,
+          title: service.title,
+          slug: service.title.toLowerCase().replace(/\s+/g, "-"),
+          smallDescription: service.smallDescription,
+          longDescription: service.longDescription,
+          icon: service.icon,
+          image: service.image,
+        });
+      });
+    });
+
+    return services;
+  });
+
   // eleventyConfig.addFilter('setAttribute', function (dictionary, key, value, append = true) {
   //     const newValue = append ? (dictionary[key] + ' ' + value) : value;
   //     dictionary[key] = newValue;
