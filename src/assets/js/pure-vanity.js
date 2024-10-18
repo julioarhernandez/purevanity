@@ -995,5 +995,5 @@
     });
   }
 
-  $("select:not(.ignore)").niceSelect();
+  // $("select:not(.ignore)").niceSelect();
 })(jQuery);

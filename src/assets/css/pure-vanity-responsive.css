@@ -1100,11 +1100,11 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .main-menu-two .mobile-nav__toggler:hover {
-        color: var(--mellis-white);
+        color: var(--pure-vanity-white);
     }
 
     .main-menu-three .mobile-nav__toggler:hover {
-        color: var(--mellis-white);
+        color: var(--pure-vanity-white);
     }
 }
 
@@ -1116,12 +1116,12 @@
     }
 
     .main-menu-two .mobile-nav__toggler:hover {
-        color: var(--mellis-white);
+        color: var(--pure-vanity-white);
     }
 
 
     .main-menu-three .mobile-nav__toggler:hover {
-        color: var(--mellis-white);
+        color: var(--pure-vanity-white);
     }
 }
 
@@ -1157,13 +1157,13 @@
     }
 
     .main-menu-two .mobile-nav__toggler:hover {
-        color: var(--mellis-white);
+        color: var(--pure-vanity-white);
     }
 
 
 
     .main-menu-three .mobile-nav__toggler:hover {
-        color: var(--mellis-white);
+        color: var(--pure-vanity-white);
     }
 
     .main-menu-three .mobile-nav__toggler {
