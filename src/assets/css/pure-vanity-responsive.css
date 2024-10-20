@@ -481,7 +481,9 @@
     .product-details__top {
         margin-top: 52px;
     }
-
+    .services-three__single {
+        min-height: 350px;
+    }
 
 
 
@@ -1105,6 +1107,12 @@
 
     .main-menu-three .mobile-nav__toggler:hover {
         color: var(--pure-vanity-white);
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .services-three__single {
+        min-height: 350px;
     }
 }
 
