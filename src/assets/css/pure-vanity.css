@@ -6873,16 +6873,36 @@ ul {
 .contact-page__google-map {
   position: relative;
   display: block;
-  background-color: var(--pure-vanity-extra);
+  background-color: #de968d45;
+  min-height: 300px;
+}
+
+.contact-page__google-map a {
+      width: 100%;
+      height: 100%;
+      position: absolute;
 }
 
 .contact-page__google-map-one {
-  position: relative;
+  /* position: relative;
   display: block;
   border: none;
   height: 442px;
   width: 100%;
-  mix-blend-mode: luminosity;
+  mix-blend-mode: luminosity; */
+}
+.contact-page__google-map__header {
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .40;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    mix-blend-mode: luminosity;
 }
 
 /*--------------------------------------------------------------
