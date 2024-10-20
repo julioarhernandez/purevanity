@@ -289,9 +289,12 @@ permalink: /
               <span class="{{ service.icon }}"></span>
             </div>
             <h3 class="services-three__title">
-              <a href="{{ service.title | slugify }}.html">{{
-                service.title
-              }}</a>
+              <a
+                href="/services/{{ serviceCategory.title | slug }}/{{
+                  service.title | slugify
+                }}/"
+                >{{ service.title }}</a
+              >
             </h3>
             <p class="services-three__text">
               {{ service.smallDescription }}
