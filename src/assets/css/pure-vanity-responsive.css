@@ -167,6 +167,7 @@
         padding: 60px 30px 60px;
     }
 
+
     .client-issues {
         padding: 120px 0 113px;
     }
@@ -582,6 +583,14 @@
 
     .counter-one__single {
         justify-content: center;
+    }
+
+    .contact-one__img-and-counter {
+        align-items: center !important;
+    }
+
+    .contact-one__count-text {
+        text-align: center;
     }
 
     .process-one__shape-1 {
