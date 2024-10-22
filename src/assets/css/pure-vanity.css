@@ -7166,6 +7166,7 @@ text-align: center;
   line-height: 44px;
   margin-top: 22px;
   margin-bottom: 21px;
+  color: var(--pure-vanity-base);
 }
 
 .services-details-two__text-2 {
@@ -7175,7 +7176,8 @@ text-align: center;
 
 .services-details-two__title-2 {
   font-size: 30px;
-  line-height: 40px;
+  line-height: 40px;  
+  color: var(--pure-vanity-base);
 }
 
 .services-details-two__text-3 {

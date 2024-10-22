@@ -13,24 +13,24 @@
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
             "thumbnail": "/assets/images/services/wrinkle.jpeg",
-            "faq": [
+           "faq": [
               {
-                "question": "What is the right spa for me?",
-                "answer": "There are many variations of passages of available but the majority have in that some form by injected randomised words which don’t look even as slightly believable now."
+                  "question": "How long do wrinkle reducer results last?",
+                  "answer": "Typically, results last 3 to 6 months, depending on the individual and the area treated."
               },
               {
-                "question": "Do they offer spa treatments for men?",
-                "answer": "There are many variations of passages of available but the majority have in that some form by injected randomised words which don’t look even as slightly believable now."
+                  "question": "Is there any pain during treatment?",
+                  "answer": "The procedure involves small injections that may cause minimal discomfort, but it’s generally well-tolerated."
               },
               {
-                "question": "Should I eat before a massage?",
-                "answer": "There are many variations of passages of available but the majority have in that some form by injected randomised words which don’t look even as slightly believable now."
+                  "question": "Can wrinkle reducers prevent wrinkles?",
+                  "answer": "Yes! Regular treatments can prevent the deepening of dynamic wrinkles by stopping muscle movements that cause them."
               },
               {
-                "question": "Should I shower before a treatment?",
-                "answer": "There are many variations of passages of available but the majority have in that some form by injected randomised words which don’t look even as slightly believable now."
+                  "question": "Can I combine wrinkle reducers with other treatments?",
+                  "answer": "Absolutely. Wrinkle reducers often complement treatments like dermal fillers, laser therapy, and skincare routines."
               }
-            ]
+          ]
           },
           {
             "title": "Dermal Fillers",
