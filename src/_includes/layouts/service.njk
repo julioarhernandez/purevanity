@@ -212,19 +212,7 @@
                 ></a>
                 {% include 'nav.njk' %}
               </div>
-              <div class="main-menu__right">
-                <div class="main-menu__search-cart-box">
-                  <div class="main-menu__search-box">
-                    <a
-                      href="#"
-                      class="main-menu__search search-toggler icon-magnifying-glass"
-                    ></a>
-                  </div>
-                  <div class="main-menu__cart-box">
-                    <a href="#" class="main-menu__cart icon-shopping-cart"></a>
-                  </div>
-                </div>
-              </div>
+              {% include 'search-box.njk' %}
             </div>
           </div>
         </nav>
@@ -263,7 +251,10 @@
             <div class="col-xl-8 col-lg-7 order-lg-1">
               <div class="services-details-two__right">
                 <div class="services-details-two__img">
-                  <img src="{{ service.image }}" alt="" />
+                  <img
+                    src="{{ service.thumbnail }}"
+                    alt="{{ service.title }}"
+                  />
                 </div>
                 <h3 class="services-details-two__title-1">
                   {{ service.title }}

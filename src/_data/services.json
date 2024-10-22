@@ -2,6 +2,7 @@
     "serviceCategories": [
       {
         "title": "Injectables",
+        "icon": "fa-syringe",
         "smallDescription": "Non-surgical treatments to enhance and restore facial features.",
         "longDescription": "Injectables offer a range of non-invasive options that reduce wrinkles, restore volume, and stimulate collagen production to enhance your facial appearance. Safe, quick, and with minimal downtime, these treatments are designed to deliver natural-looking, youthful results.",
         "services": [
@@ -11,6 +12,7 @@
             "longDescription": "wrinkle.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/wrinkle.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -36,6 +38,7 @@
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/dermal.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -61,6 +64,7 @@
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/biostimulators.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -84,8 +88,9 @@
       },
       {
         "title": "Facial Rejuvenation",
+        "icon": "fa-spa",
         "smallDescription": "Rejuvenate and revitalize your complexion.",
-        "longDescription": "dermal.md",
+        "longDescription": "Our Facial Rejuvenation services are designed to revitalize and refresh your skin, targeting common concerns like wrinkles, acne scars, and uneven texture. Treatments such as microneedling, PRP therapy, and chemical peels work by stimulating collagen production and exfoliating the skin to reveal a smoother, more radiant complexion. Ideal for those looking to achieve glowing, youthful skin without surgery.",
         "services": [
           {
             "title": "Sculptra BBL",
@@ -93,6 +98,7 @@
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/sculptra.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -118,6 +124,7 @@
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/jaw.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -143,6 +150,7 @@
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/prp.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -168,6 +176,7 @@
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/microneedling.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -193,6 +202,7 @@
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/peels.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -216,6 +226,7 @@
       },
       {
         "title": "Body Contouring & Fat Reduction",
+        "icon": "fa-weight",
         "smallDescription": "Non-surgical solutions for fat loss and body shaping.",
         "longDescription": "Our body contouring treatments use advanced technology to target stubborn fat and reshape areas of the body without the need for surgery. These treatments can help you achieve a slimmer, more contoured figure with minimal downtime.",
         "services": [
@@ -225,6 +236,7 @@
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/kybella.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -250,6 +262,7 @@
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/body-contour.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -273,6 +286,7 @@
       },
       {
         "title": "Advanced Treatments",
+        "icon": "fa-dna",
         "smallDescription": "Next-level aesthetic treatments for enhanced results.",
         "longDescription": "Our advanced treatments include the latest innovations in aesthetics, designed to deliver dramatic improvements in skin texture, tone, and elasticity. These procedures are perfect for clients seeking cutting-edge results.",
         "services": [
@@ -282,6 +296,7 @@
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/PDO.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -307,6 +322,7 @@
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/exomes.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -330,6 +346,7 @@
       },
       {
         "title": "Weight Loss",
+        "icon": "fa-apple-alt",
         "smallDescription": "Medically supervised weight loss programs.",
         "longDescription": "Our weight loss programs are designed to help you lose weight safely and effectively under medical supervision. We offer personalized plans that may include medications, dietary adjustments, and lifestyle coaching to help you achieve sustainable results.",
         "services": [
@@ -339,6 +356,7 @@
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/services/weight.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",

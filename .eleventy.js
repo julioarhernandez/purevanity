@@ -156,6 +156,7 @@ module.exports = function (eleventyConfig) {
           longDescription: service.longDescription,
           icon: service.icon,
           image: service.image,
+          thumbnail: service.thumbnail,
           faq: service.faq,
         });
       });
@@ -192,6 +193,7 @@ module.exports = function (eleventyConfig) {
       "woff2",
       "svg",
       "jpg",
+      "jpeg",
       "png",
       "css",
       "svg",

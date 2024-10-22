@@ -24,6 +24,8 @@
   --pure-vanity-white: #ffffff;
   --pure-vanity-white-rgb: 255, 255, 255;
   --pure-vanity-base: #de968d;
+  --pure-vanity-base-light: #f5e4e1;
+  --pure-vanity-base-lightest: #f5e4e17d;
   --pure-vanity-base-rgb: 222, 150, 141;
   --pure-vanity-black: #27252a;
   --pure-vanity-black-rgb: 39, 37, 42;
@@ -906,7 +908,7 @@ ul {
 .main-menu__cart-box {
   position: relative;
   display: block;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .main-menu__cart {
@@ -1361,6 +1363,7 @@ ul {
   transition: transform 500ms ease;
   transition: transform 500ms ease, -webkit-transform 500ms ease;
   padding: 0;
+  border-radius: 5px;;
 }
 
 .mobile-nav__content .main-menu__list>li>a>button.expanded,
@@ -2621,8 +2624,10 @@ ul {
 
 .services-one__img img {
   width: 100%;
+  height: 100%;
   border-radius: 50%;
   transition: all 500ms ease;
+  aspect-ratio: 1;
 }
 
 .services-one__single:hover .services-one__img img {
@@ -2631,11 +2636,11 @@ ul {
 
 .services-one__icon {
   position: absolute;
-  bottom: -40px;
-  width: 91px;
+  bottom: -30px;
+  width: 50px;
   left: 50%;
   right: 0;
-  height: 91px;
+  height: 50px;
   background-color: var(--pure-vanity-base);
   border-radius: 50%;
   display: flex;
@@ -2648,7 +2653,7 @@ ul {
 .services-one__icon span {
   position: relative;
   display: inline-block;
-  font-size: 47px;
+  font-size: 20px;
   color: var(--pure-vanity-white);
   -webkit-transition: all 500ms linear;
   transition: all 500ms linear;
@@ -6928,6 +6933,14 @@ ul {
   padding: 60px 0 120px;
   z-index: 1;
 }
+.services-details-two__img, .services-details-two__title-1 {
+text-align: center;
+} 
+.services-details-two__img img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+} 
 
 .services-details-two__left {
   position: relative;
@@ -6937,9 +6950,10 @@ ul {
 .services-details-two__category {
   position: relative;
   display: block;
-  background-color: var(--pure-vanity-extra);
+  background-color: var(--pure-vanity-base-lightest);
   padding: 40px 30px 34px;
   margin-bottom: 30px;
+  border-radius: 20px;
 }
 
 .services-details-two__category-list {
@@ -7134,7 +7148,7 @@ ul {
 }
 
 .services-details-two__img img {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .services-details-two__title-1 {
@@ -7424,9 +7438,13 @@ ul {
 .services-page {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 60px 0 90px;
   z-index: 1;
 }
+.services-page .row ~ .row{
+  margin: 30px 0;
+}
+
 
 /*--------------------------------------------------------------
 # Get Free

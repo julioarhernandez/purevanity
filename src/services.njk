@@ -9,9 +9,19 @@ permalink: /services/
 <!--Services Page Start-->
 <section class="services-page">
   <div class="container">
+    {% for serviceCategory in services.serviceCategories %}
     <div class="row">
-      {% for serviceCategory in services.serviceCategories %} {% for service in
-      serviceCategory.services %}
+      <div class="col-12 col-md-10 m-md-auto m-lg-0">
+        <h3 class="section-subtitle__title mb-3">
+          {{ serviceCategory.title }}
+        </h3>
+        <p class="welcome-one__text">
+          {{ serviceCategory.longDescription }}
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      {% for service in serviceCategory.services %}
       <!--Services One Single Start-->
       <div
         class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
@@ -33,10 +43,10 @@ permalink: /services/
             </div>
             <div class="services-one__img-box">
               <div class="services-one__img">
-                <img src="{{ service.image }}" alt="" />
+                <img src="{{ service.thumbnail }}" alt="{{ service.title }}" />
               </div>
               <div class="services-one__icon">
-                <span class="{{ service.icon }}"></span>
+                <span class="fa {{ serviceCategory.icon }}"></span>
               </div>
             </div>
             <h3 class="services-one__title">
@@ -58,8 +68,9 @@ permalink: /services/
         </div>
       </div>
       <!--Services One Single End-->
-      {%endfor%} {%endfor%}
+      {%endfor%}
     </div>
+    {%endfor%}
   </div>
 </section>
 <!--Services Page End-->

@@ -1205,9 +1205,15 @@
 }
 
 @media (max-width: 991px) {
-    .services-details-two {
+     .services-details-two {
         padding: 0px 0 120px;
     }
+        
+}
+
+@media (min-width: 992px) {
+
+      
 }
 
 
