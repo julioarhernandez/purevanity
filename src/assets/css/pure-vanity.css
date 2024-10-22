@@ -18,8 +18,8 @@
 # Common
 --------------------------------------------------------------*/
 :root {
-  --pure-vanity-font: 'Manrope', sans-serif;
-  --pure-vanity-font-two: 'Libre Baskerville', serif;
+  --pure-vanity-font: 'Poppins', sans-serif;
+  --pure-vanity-font-two: 'Playfair Display', serif;
   --pure-vanity-font-three: 'Parisienne', cursive;
   --pure-vanity-white: #ffffff;
   --pure-vanity-white-rgb: 255, 255, 255;
@@ -29,7 +29,8 @@
   --pure-vanity-black-rgb: 39, 37, 42;
   --pure-vanity-extra: #fcf5f5;
   --pure-vanity-extra-rgb: 252, 245, 245;
-  --pure-vanity-gray: #89868d;
+  /* --pure-vanity-gray: #89868d; orignal value*/
+  --pure-vanity-gray: #65676c;
   --pure-vanity-gray-rgb: 137, 134, 141;
   --pure-vanity-bdr-color: #f0e8e8;
   --pure-vanity-bdr-color-rgb: 240, 232, 232;
@@ -47,9 +48,9 @@
 body {
   font-family: var(--pure-vanity-font);
   color: var(--pure-vanity-gray);
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
 }
 
 body.locked {
@@ -206,7 +207,7 @@ ul {
   font-size: 16px;
   line-height: 16px;
   color: var(--pure-vanity-base);
-  font-weight: 600;
+  font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -1317,7 +1318,7 @@ ul {
   color: #ffffff;
   font-size: 14px;
   font-family: var(--pure-vanity-font);
-  font-weight: 500;
+  /* font-weight: 500; */
   height: 46px;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1444,7 +1445,7 @@ ul {
 .mobile-nav__contact li {
   color: var(--pure-vanity-text-dark);
   font-size: 14px;
-  font-weight: 500;
+  /* font-weight: 500; */
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2180,10 +2181,10 @@ ul {
 .main-slider-two__sub-title {
   font-size: 18px;
   color: var(--pure-vanity-white);
-  font-weight: 500;
+  
   line-height: 28px;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   /* opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(-120px);
@@ -4203,7 +4204,7 @@ ul {
 }
 
 .about-one__points li+li {
-  margin-top: 36px;
+  margin-top: 28px;
 }
 
 .about-one__points li h4 {
@@ -6200,7 +6201,7 @@ ul {
 }
 
 .spa-center-two__title {
-  font-size: 50px;
+  font-size: 38px;
   line-height: 60px;
   color: var(--pure-vanity-white);
 }
@@ -6924,7 +6925,7 @@ ul {
 .services-details-two {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 60px 0 120px;
   z-index: 1;
 }
 
@@ -6999,8 +7000,8 @@ ul {
   position: relative;
   display: flex;
   align-items: center;
-  font-size: 16px;
-  font-weight: 600;
+  /* font-size: 16px;
+  font-weight: 600; */
   color: var(--pure-vanity-gray);
   padding: 8px 60px 8px 45px;
   -webkit-transition: all 500ms ease;
@@ -7225,8 +7226,8 @@ ul {
   position: relative;
   display: block;
   cursor: pointer;
-  padding: 22px 40px 24px;
-  padding-right: 15px;
+  padding: 25px 50px 25px 25px;
+  
   background-color: var(--pure-vanity-extra);
   transition: all 200ms linear;
   transition-delay: 0.1s;
@@ -7254,7 +7255,7 @@ ul {
   color: var(--pure-vanity-black);
 }
 
-.services-details-two__faq .faq-one-accrodion .accrodion-title h4::before {
+.services-details-two__faq .faq-one-accrodion .accrodion-title::before {
   content: "\f067";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -7269,7 +7270,7 @@ ul {
   transition: all 500ms ease;
 }
 
-.services-details-two__faq .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
+.services-details-two__faq .faq-one-accrodion .accrodion.active .accrodion-title::before {
   content: "\f068";
   color: var(--pure-vanity-black);
 }
@@ -8007,7 +8008,7 @@ ul {
 }
 
 .client-issues__text {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .client-issues__points {
@@ -8020,6 +8021,7 @@ ul {
   position: relative;
   display: flex;
   align-items: baseline;
+  margin-bottom: 15px;
 }
 
 .client-issues__points li .icon {
@@ -8050,8 +8052,11 @@ ul {
 }
 
 .client-issues__points li .text p {
-  font-weight: 700;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: var(--pure-vanity-font-two);
   color: var(--pure-vanity-black);
+  line-height: normal;
 }
 
 /*--------------------------------------------------------------

@@ -15,12 +15,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
     />
 
@@ -260,7 +260,20 @@
       <section class="services-details-two">
         <div class="container">
           <div class="row">
-            <div class="col-xl-4 col-lg-5">
+            <div class="col-xl-8 col-lg-7 order-lg-1">
+              <div class="services-details-two__right">
+                <div class="services-details-two__img">
+                  <img src="{{ service.image }}" alt="" />
+                </div>
+                <h3 class="services-details-two__title-1">
+                  {{ service.title }}
+                </h3>
+                {% set longDescriptionPath = "service-pages/" ~
+                service.longDescription | slug %} {% include longDescriptionPath
+                %} {% set data = service.faq %} {% include "faq.njk"%}
+              </div>
+            </div>
+            <div class="col-lg-5 col-xl-4 mt-4 mt-lg-0">
               <div class="services-details-two__left">
                 <div class="services-details-two__category">
                   {% include "service-detail-nav.njk" %}
@@ -299,10 +312,7 @@
                 </div>
                 <div class="services-details-two__help-line">
                   <div class="services-details-two__help-line-img">
-                    <img
-                      src="/assets/images/services/services-details-two-help-line-img-1.jpg"
-                      alt=""
-                    />
+                    <img src="/assets/images/book1.jpg" alt="" />
                   </div>
                   <div class="services-details-two__help-line-content">
                     <div class="services-details-two__help-line-icon">
@@ -316,19 +326,6 @@
                     </h3>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-xl-8 col-lg-7">
-              <div class="services-details-two__right">
-                <div class="services-details-two__img">
-                  <img src="{{ service.image }}" alt="" />
-                </div>
-                <h3 class="services-details-two__title-1">
-                  {{ service.title }}
-                </h3>
-                {% set longDescriptionPath = "service-pages/" ~
-                service.longDescription | slug %} {% include longDescriptionPath
-                %} {% set data = service.faq %} {% include "faq.njk"%}
               </div>
             </div>
           </div>

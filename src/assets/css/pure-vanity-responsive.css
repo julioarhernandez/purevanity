@@ -942,7 +942,7 @@
     }
 
     .services-details-two__category-list li a {
-        padding: 15px 80px 15px;
+        padding: 13px 43px 15px;
         padding-right: 20px;
     }
 
@@ -1123,6 +1123,7 @@
     .services-three__single {
         min-height: 350px;
     }
+    
 }
 
 
@@ -1139,6 +1140,12 @@
 
     .main-menu-three .mobile-nav__toggler:hover {
         color: var(--pure-vanity-white);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .spa-center-two__title {
+        max-width: 80%;
     }
 }
 
@@ -1195,6 +1202,12 @@
 
 
 
+}
+
+@media (max-width: 991px) {
+    .services-details-two {
+        padding: 0px 0 120px;
+    }
 }
 
 
