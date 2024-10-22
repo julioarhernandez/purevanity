@@ -149,6 +149,16 @@ ul {
 .list-unstyled {
   padding-left: 0;
 }
+.list-service {
+  margin: 30px 15px;
+}
+.list-service li ~ li{
+  margin: 15px 0;
+}
+
+.list-service li .text p{
+  font-weight: 400 !important;
+}
 
 @media (min-width: 1200px) {
   .container {
@@ -7160,7 +7170,7 @@ text-align: center;
 
 .services-details-two__text-2 {
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .services-details-two__title-2 {

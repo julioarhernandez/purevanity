@@ -250,18 +250,25 @@
           <div class="row">
             <div class="col-xl-8 col-lg-7 order-lg-1">
               <div class="services-details-two__right">
-                <div class="services-details-two__img">
-                  <img
-                    src="{{ service.thumbnail }}"
-                    alt="{{ service.title }}"
-                  />
-                </div>
-                <h3 class="services-details-two__title-1">
-                  {{ service.title }}
-                </h3>
-                {% set longDescriptionPath = "service-pages/" ~
-                service.longDescription | slug %} {% include longDescriptionPath
-                %} {% set data = service.faq %} {% include "faq.njk"%}
+                <section>
+                  <div class="services-details-two__img">
+                    <img
+                      src="{{ service.thumbnail }}"
+                      alt="{{ service.title }}"
+                    />
+                  </div>
+                  <header>
+                    <h3 class="services-details-two__title-1">
+                      {{ service.title }}
+                    </h3>
+                  </header>
+                  <article>
+                    {% set longDescriptionPath = "service-pages/" ~
+                    service.longDescription | slug %} {% include
+                    longDescriptionPath %} {% set data = service.faq %} {%
+                    include "faq.njk"%}
+                  </article>
+                </section>
               </div>
             </div>
             <div class="col-lg-5 col-xl-4 mt-4 mt-lg-0">
