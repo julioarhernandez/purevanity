@@ -442,7 +442,7 @@
           self.parent().children("ul").slideToggle();
 
           // Optional: Call updateLevelClasses to manage level classes if needed
-          updateLevelClasses(self.closest(".main-menu__list"));
+          // updateLevelClasses(self.closest(".main-menu__list"));
         });
       });
     }
