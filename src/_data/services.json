@@ -40,49 +40,63 @@
             "image": "/assets/images/services/services-details-two-img-1.jpg",
             "thumbnail": "/assets/images/services/dermal.jpeg",
             "faq": [
-              {
-                "question": "What is the right spa for me?",
-                "answer": "There are many variations of passages of available but the majority have in that some form by injected randomised words which don’t look even as slightly believable now."
-              },
-              {
-                "question": "Do they offer spa treatments for men?",
-                "answer": "There are many variations of passages of available but the majority have in that some form by injected randomised words which don’t look even as slightly believable now."
-              },
-              {
-                "question": "Should I eat before a massage?",
-                "answer": "There are many variations of passages of available but the majority have in that some form by injected randomised words which don’t look even as slightly believable now."
-              },
-              {
-                "question": "Should I shower before a treatment?",
-                "answer": "There are many variations of passages of available but the majority have in that some form by injected randomised words which don’t look even as slightly believable now."
-              }
+                {
+                    "question": "How long do dermal filler results last?",
+                    "answer": "Dermal filler results typically last between 6 months to 2 years, depending on the type of filler used and the area treated."
+                },
+                {
+                    "question": "Is the dermal filler procedure painful?",
+                    "answer": "Most patients experience minimal discomfort during the procedure. Numbing creams or local anesthesia are often used to ensure comfort."
+                },
+                {
+                    "question": "What areas can be treated with dermal fillers?",
+                    "answer": "Dermal fillers can be used to enhance lips, smooth out wrinkles, add volume to cheeks, and contour areas such as the jawline and chin."
+                },
+                {
+                    "question": "Are there any side effects of dermal fillers?",
+                    "answer": "Common side effects include temporary redness, swelling, or bruising at the injection site. These typically resolve within a few days."
+                },
+                {
+                    "question": "How soon will I see results from dermal fillers?",
+                    "answer": "Results are visible immediately after the treatment, with full effects becoming more apparent as swelling subsides, usually within a few days."
+                },
+                {
+                    "question": "Can dermal fillers be combined with other treatments?",
+                    "answer": "Yes, dermal fillers are often combined with other treatments such as Botox or microneedling to achieve comprehensive facial rejuvenation."
+                }
             ]
+
           },
           {
             "title": "Biostimulators",
             "smallDescription": "Stimulate collagen for long-lasting volume.",
-            "longDescription": "dermal.md",
+            "longDescription": "biostimulators.md",
             "icon": "icon-meditation",
             "image": "/assets/images/services/services-details-two-img-1.jpg",
             "thumbnail": "/assets/images/services/biostimulators.jpeg",
             "faq": [
               {
-                "question": "What is the right spa for me?",
-                "answer": "There are many variations of passages of available but the majority have in that some form by injected randomised words which don’t look even as slightly believable now."
+                  "question": "How long do biostimulator results last?",
+                  "answer": "Biostimulator results, such as from Sculptra or Radiesse, can last between 1 to 2 years. The duration varies depending on the individual and how their body responds to collagen stimulation."
               },
               {
-                "question": "Do they offer spa treatments for men?",
-                "answer": "There are many variations of passages of available but the majority have in that some form by injected randomised words which don’t look even as slightly believable now."
+                  "question": "Is the biostimulator treatment painful?",
+                  "answer": "The procedure involves a series of small injections, which may cause minimal discomfort. However, a topical anesthetic can be applied to minimize any pain during the treatment."
               },
               {
-                "question": "Should I eat before a massage?",
-                "answer": "There are many variations of passages of available but the majority have in that some form by injected randomised words which don’t look even as slightly believable now."
+                  "question": "How do biostimulators work?",
+                  "answer": "Biostimulators like Sculptra and Radiesse stimulate your body’s natural collagen production. Over time, they help restore volume, improve skin texture, and reduce the appearance of wrinkles."
               },
               {
-                "question": "Should I shower before a treatment?",
-                "answer": "There are many variations of passages of available but the majority have in that some form by injected randomised words which don’t look even as slightly believable now."
+                  "question": "When will I see results from biostimulators?",
+                  "answer": "Results from biostimulators develop gradually as collagen production increases. Most patients start seeing visible improvements within a few weeks, with full results appearing over several months."
+              },
+              {
+                  "question": "Can biostimulators be combined with other treatments?",
+                  "answer": "Yes! Biostimulators are often combined with dermal fillers, wrinkle reducers, or skin resurfacing treatments for a more comprehensive facial rejuvenation."
               }
-            ]
+          ]
+
           }
         ]
       },

@@ -969,20 +969,20 @@
   // window scroll event
 
   $(window).on("scroll", function () {
-    if ($(".stricked-menu").length) {
+    if ($(".sticked-menu").length) {
       var headerScrollPos = 130;
-      var stricky = $(".stricked-menu");
+      var sticky = $(".sticked-menu");
       if ($(window).scrollTop() > headerScrollPos) {
-        stricky.addClass("stricky-fixed");
+        sticky.addClass("sticky-fixed");
       } else if ($(this).scrollTop() <= headerScrollPos) {
-        stricky.removeClass("stricky-fixed");
+        sticky.removeClass("sticky-fixed");
       }
     }
     if ($(".scroll-to-top").length) {
-      var strickyScrollPos = 100;
-      if ($(window).scrollTop() > strickyScrollPos) {
+      var stickyScrollPos = 100;
+      if ($(window).scrollTop() > stickyScrollPos) {
         $(".scroll-to-top").fadeIn(500);
-      } else if ($(this).scrollTop() <= strickyScrollPos) {
+      } else if ($(this).scrollTop() <= stickyScrollPos) {
         $(".scroll-to-top").fadeOut(500);
       }
     }

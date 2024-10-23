@@ -91,7 +91,7 @@ permalink: /
             <!-- <div class="our-intro__person">
               <div class="our-intro__person-img">
                 <img
-                  src="assets/images/resources/our-intro-person-img.jpg"
+                  src="/assets/images/resources/our-intro-person-img.jpg"
                   alt=""
                 />
               </div>
@@ -250,7 +250,7 @@ permalink: /
           <div class="services-three__single">
             <div class="services-three__shape-1">
               <img
-                src="assets/images/shapes/services-three-shape-1.png"
+                src="/assets/images/shapes/services-three-shape-1.png"
                 alt=""
               />
             </div>
@@ -275,7 +275,7 @@ permalink: /
           <div class="services-three__single">
             <div class="services-three__shape-1">
               <img
-                src="assets/images/shapes/services-three-shape-1.png"
+                src="/assets/images/shapes/services-three-shape-1.png"
                 alt=""
               />
             </div>
@@ -300,7 +300,7 @@ permalink: /
           <div class="services-three__single">
             <div class="services-three__shape-1">
               <img
-                src="assets/images/shapes/services-three-shape-1.png"
+                src="/assets/images/shapes/services-three-shape-1.png"
                 alt=""
               />
             </div>
@@ -325,7 +325,7 @@ permalink: /
           <div class="services-three__single">
             <div class="services-three__shape-1">
               <img
-                src="assets/images/shapes/services-three-shape-1.png"
+                src="/assets/images/shapes/services-three-shape-1.png"
                 alt=""
               />
             </div>
@@ -392,7 +392,7 @@ permalink: /
         <div class="client-issues__left">
           <div class="client-issues__img-box">
             <div class="client-issues__img">
-              <img src="assets/images/why.jpg" alt="" />
+              <img src="/assets/images/why.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -464,246 +464,70 @@ permalink: /
 <!--Client Issues End-->
 <!--About me End-->
 
-<!--Promotions One Start-->
-<section class="promotions-one">
-  <div class="container">
-    <div class="row">
-      <!--Promotions One Single Start-->
-      <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
-        <div class="promotions-one__single">
-          <div
-            class="promotions-one__single-bg"
-            style="
-              background-image: url(assets/images/backgrounds/promotion-one-single-bg.png);
-            "
-          ></div>
-          <div class="promotions-one__shape-1">
-            <img src="assets/images/shapes/promotions-one-shape-1.png" alt="" />
-          </div>
-          <div
-            class="promotions-one__single-bg-2"
-            style="
-              background-image: url(assets/images/backgrounds/promotion-one-single-bg-2.png);
-            "
-          ></div>
-          <h3 class="promotions-one__title">
-            Beauty <br />
-            Treatment
-          </h3>
-          <a href="contact.html" class="promotions-one__btn thm-btn"
-            >Book now</a
-          >
-          <div class="promotions-one__discount">
-            <h3>
-              30% <br />
-              off
-            </h3>
-          </div>
-        </div>
-      </div>
-      <!--Promotions One Single End-->
-      <!--Promotions One Single Start-->
-      <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
-        <div class="promotions-one__single promotions-one__single-2">
-          <div
-            class="promotions-one__single-bg"
-            style="
-              background-image: url(assets/images/backgrounds/promotion-one-single-bg-3.png);
-            "
-          ></div>
-          <div class="promotions-one__shape-1">
-            <img src="assets/images/shapes/promotions-one-shape-1.png" alt="" />
-          </div>
-          <div
-            class="promotions-one__single-bg-2"
-            style="
-              background-image: url(assets/images/backgrounds/promotion-one-single-bg-4.png);
-            "
-          ></div>
-          <h3 class="promotions-one__title">
-            Spa & <br />
-            Massage
-          </h3>
-          <a href="contact.html" class="promotions-one__btn thm-btn"
-            >Book now</a
-          >
-          <div class="promotions-one__discount">
-            <h3>
-              30% <br />
-              off
-            </h3>
-          </div>
-        </div>
-      </div>
-      <!--Promotions One Single End-->
-    </div>
+<!--Testimonial Two Start-->
+<section class="testimonial-two">
+  <div class="testimonial-two__shape-1 float-bob-x">
+    <img src="/assets/images/shape.png" alt="" />
   </div>
-</section>
-<!--Promotions One End-->
-
-<!--Testimonial Three Start-->
-<section class="testimonial-three">
-  <div
-    class="testimonial-three__bg"
-    style="
-      background-image: url(assets/images/backgrounds/testimonial-three-bg.jpg);
-    "
-  ></div>
+  <div class="testimonial-two__shape-2 float-bob-y">
+    <img src="/assets/images/shape.png" alt="" />
+  </div>
   <div class="container">
-    <div class="testimonial-three__slider">
-      <div class="swiper-container" id="testimonial-three__thumb">
+    <div class="testimonial-two__slider">
+      <div class="swiper-container" id="testimonial-two__thumb">
         <div class="swiper-wrapper">
+          {% for testimonial in testimonials.testimonials %}
           <div class="swiper-slide">
-            <div class="testimonial-three__img-holder">
-              <img src="assets/images/testimonial/testimonial-3-1.jpg" alt="" />
+            <div class="testimonial-two__img-holder">
+              <img
+                src="{{ testimonial.avatar }}"
+                alt="{{ testimonial.name }}"
+              />
             </div>
           </div>
-          <!-- /.swiper-slide -->
-          <div class="swiper-slide">
-            <div class="testimonial-three__img-holder">
-              <img src="assets/images/testimonial/testimonial-3-2.jpg" alt="" />
-            </div>
-          </div>
-          <!-- /.swiper-slide -->
-          <div class="swiper-slide">
-            <div class="testimonial-three__img-holder">
-              <img src="assets/images/testimonial/testimonial-3-3.jpg" alt="" />
-            </div>
-          </div>
+
+          {% endfor %}
+
           <!-- /.swiper-slide -->
         </div>
         <!-- /.swiper-wrapper -->
       </div>
       <!-- /#testimonials-one__thumb.swiper-container -->
 
-      <div class="testimonial-three__main-content">
-        <div class="swiper-container" id="testimonial-three__carousel">
+      <div class="testimonial-two__main-content">
+        <div class="swiper-container" id="testimonial-two__carousel">
           <div class="swiper-wrapper">
+            {% for testimonial in testimonials.testimonials %}
+            <!-- swiper-slide -->
             <div class="swiper-slide">
-              <div class="testimonial-three__client-info">
-                <div class="testimonial-three__client-img">
-                  <img
-                    src="assets/images/testimonial/testimonial-three-client-img-1-1.jpg"
-                    alt=""
-                  />
-                  <div class="testimonial-three__quote">
-                    <img src="assets/images/icon/icon-quote-two.png" alt="" />
-                  </div>
+              <div class="testimonial-two__content-box">
+                <div class="testimonial-two__client-review">
+                  {% for star in range(testimonial.rating) %}
+                  <i class="fa fa-star"></i>
+                  {% endfor %}
                 </div>
-                <div class="testimonial-three__client-content">
-                  <div class="testimonial-three__client-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                  </div>
-                  <p class="testimonial-three__client-text">
-                    Saturday is a day for the spa. It's not selfish to love
-                    yourself, take care of yourself, and to make your happiness
-                    a priority.
+                <p class="testimonial-two__text">{{ testimonial.review }}</p>
+                <div class="testimonial-two__client-info-box">
+                  <h4 class="testimonial-two__client-name">
+                    {{ testimonial.name }}
+                  </h4>
+                  <p class="testimonial-two__client-sub-title">
+                    {{ testimonial.subtitle }}
                   </p>
-                  <div class="testimonial-three__client-details">
-                    <div class="testimonial-three__client-title-box">
-                      <h4 class="testimonial-three__client-name">
-                        Aleesha Brown
-                      </h4>
-                      <p class="testimonial-three__client-sub-title">
-                        Customer
-                      </p>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
             <!-- /.swiper-slide -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-three__client-info">
-                <div class="testimonial-three__client-img">
-                  <img
-                    src="assets/images/testimonial/testimonial-three-client-img-1-2.jpg"
-                    alt=""
-                  />
-                  <div class="testimonial-three__quote">
-                    <img src="assets/images/icon/icon-quote-two.png" alt="" />
-                  </div>
-                </div>
-                <div class="testimonial-three__client-content">
-                  <div class="testimonial-three__client-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                  </div>
-                  <p class="testimonial-three__client-text">
-                    Saturday is a day for the spa. It's not selfish to love
-                    yourself, take care of yourself, and to make your happiness
-                    a priority.
-                  </p>
-                  <div class="testimonial-three__client-details">
-                    <div class="testimonial-three__client-title-box">
-                      <h4 class="testimonial-three__client-name">
-                        Aleesha Brown
-                      </h4>
-                      <p class="testimonial-three__client-sub-title">
-                        Customer
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- /.swiper-slide -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-three__client-info">
-                <div class="testimonial-three__client-img">
-                  <img
-                    src="assets/images/testimonial/testimonial-three-client-img-1-1.jpg"
-                    alt=""
-                  />
-                  <div class="testimonial-three__quote">
-                    <img src="assets/images/icon/icon-quote-two.png" alt="" />
-                  </div>
-                </div>
-                <div class="testimonial-three__client-content">
-                  <div class="testimonial-three__client-rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                  </div>
-                  <p class="testimonial-three__client-text">
-                    Saturday is a day for the spa. It's not selfish to love
-                    yourself, take care of yourself, and to make your happiness
-                    a priority.
-                  </p>
-                  <div class="testimonial-three__client-details">
-                    <div class="testimonial-three__client-title-box">
-                      <h4 class="testimonial-three__client-name">
-                        Aleesha Brown
-                      </h4>
-                      <p class="testimonial-three__client-sub-title">
-                        Customer
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {% endfor %}
             <!-- /.swiper-slide -->
           </div>
           <!-- /.swiper-wrapper -->
         </div>
-        <div id="testimonials-one__carousel-pagination"></div>
       </div>
     </div>
   </div>
 </section>
-<!--Testimonial Three End-->
+<!--Testimonial Two End-->
 
 <!--Spa Center Two Start-->
 <section class="spa-center-two">
@@ -735,7 +559,7 @@ permalink: /
     <div class="three-points__wrap">
       <div class="three-points__inner">
         <div class="three-points__shape-1 float-bob-y">
-          <img src="assets/images/shapes/three-points-shape-1.png" alt="" />
+          <img src="/assets/images/shapes/three-points-shape-1.png" alt="" />
         </div>
         <ul class="three-points__list list-unstyled">
           <li>
@@ -823,44 +647,21 @@ permalink: /
     >
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="assets/images/brand/brand-2-1.png" alt="" />
+          <img src="/assets/images/radiesse.png" alt="" />
         </div>
         <!-- /.swiper-slide -->
         <div class="swiper-slide">
-          <img src="assets/images/brand/brand-2-2.png" alt="" />
+          <img src="/assets/images/kybella.png" alt="" />
         </div>
         <!-- /.swiper-slide -->
         <div class="swiper-slide">
-          <img src="assets/images/brand/brand-2-3.png" alt="" />
+          <img src="/assets/images/sculptra.png" alt="" />
         </div>
         <!-- /.swiper-slide -->
         <div class="swiper-slide">
-          <img src="assets/images/brand/brand-2-4.png" alt="" />
+          <img src="/assets/images/dysport.png" alt="" />
         </div>
-        <!-- /.swiper-slide -->
-        <div class="swiper-slide">
-          <img src="assets/images/brand/brand-2-5.png" alt="" />
-        </div>
-        <!-- /.swiper-slide -->
-        <div class="swiper-slide">
-          <img src="assets/images/brand/brand-2-1.png" alt="" />
-        </div>
-        <!-- /.swiper-slide -->
-        <div class="swiper-slide">
-          <img src="assets/images/brand/brand-2-2.png" alt="" />
-        </div>
-        <!-- /.swiper-slide -->
-        <div class="swiper-slide">
-          <img src="assets/images/brand/brand-2-3.png" alt="" />
-        </div>
-        <!-- /.swiper-slide -->
-        <div class="swiper-slide">
-          <img src="assets/images/brand/brand-2-4.png" alt="" />
-        </div>
-        <!-- /.swiper-slide -->
-        <div class="swiper-slide">
-          <img src="assets/images/brand/brand-2-5.png" alt="" />
-        </div>
+
         <!-- /.swiper-slide -->
       </div>
     </div>
