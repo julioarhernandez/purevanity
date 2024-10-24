@@ -6,13 +6,13 @@
     <a href="/about-us/">About us</a>
   </li>
 
-  <li class="dropdown{% if page.url == '/services/' %} current{% endif %}">
-    <a href="/services/">Our Services</a>
+  <li class="dropdown{% if page.url == '/treatments/' %} current{% endif %}">
+    <a href="/treatments/">Treatments</a>
     <ul>
       <!-- Loop through service categories from JSON -->
       {% for category in services.serviceCategories %}
       <li class="dropdown">
-        <a href="#" title="/services/{{ category.title | slug }}">{{
+        <a href="#" title="/treatments/{{ category.title | slug }}">{{
           category.title
         }}</a>
         <ul>
@@ -20,7 +20,7 @@
           {% for service in category.services %}
           <li>
             <a
-              href="/services/{{ category.title | slug }}/{{
+              href="/treatments/{{ category.title | slug }}/{{
                 service.title | slug
               }}"
             >

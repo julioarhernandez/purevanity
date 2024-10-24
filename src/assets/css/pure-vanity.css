@@ -1011,7 +1011,7 @@ ul {
   position: absolute;
   top: 100%;
   left: 0;
-  min-width: 250px;
+  min-width: 275px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -1099,7 +1099,7 @@ ul {
 .main-menu .main-menu__list>li>ul>li>ul,
 .sticky-header .main-menu__list>li>ul>li>ul {
   top: 0;
-  left: 100%;
+  left: -100%;
 }
 
 .main-menu .main-menu__list li ul li>ul.right-align,
