@@ -72,8 +72,8 @@
             "smallDescription": "Stimulate collagen for long-lasting volume.",
             "longDescription": "biostimulators.md",
             "icon": "icon-meditation",
-            "image": "/assets/images/services/services-details-two-img-1.jpg",
-            "thumbnail": "/assets/images/services/biostimulators.jpeg",
+            "image": "/assets/images/treatments/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/treatments/biostimulators.jpeg",
             "faq": [
               {
                   "question": "How long do biostimulator results last?",
@@ -111,8 +111,8 @@
             "smallDescription": "Non-surgical Brazilian Butt Lift using Sculptra.",
             "longDescription": "sculptra-bbl.md",
             "icon": "icon-meditation",
-            "image": "/assets/images/services/services-details-two-img-1.jpg",
-            "thumbnail": "/assets/images/services/sculptra.jpeg",
+            "image": "/assets/images/treatments/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/treatments/sculptra.jpeg",
               "faq": [
                   {
                       "question": "How long do Sculptra BBL results last?",
@@ -141,8 +141,8 @@
             "smallDescription": "Define your jawline with Radiesse.",
             "longDescription": "radiesse-jaw-contouring.md",
             "icon": "icon-meditation",
-            "image": "/assets/images/services/services-details-two-img-1.jpg",
-            "thumbnail": "/assets/images/services/jaw.jpeg",
+            "image": "/assets/images/treatments/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/treatments/jaw.jpeg",
             "faq": [
                 {
                     "question": "How long do Radiesse jaw contouring results last?",
@@ -172,8 +172,8 @@
             "smallDescription": "Platelet-Rich Plasma for skin rejuvenation.",
             "longDescription": "prp.md",
             "icon": "icon-meditation",
-            "image": "/assets/images/services/services-details-two-img-1.jpg",
-            "thumbnail": "/assets/images/services/prp.jpeg",
+            "image": "/assets/images/treatments/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/treatments/prp.jpeg",
            "faq": [
               {
                   "question": "How long do Platelet-Rich Plasma (PRP) results last?",
@@ -203,8 +203,8 @@
             "smallDescription": "Stimulate collagen with micro-injuries.",
             "longDescription": "microneedling.md",
             "icon": "icon-meditation",
-            "image": "/assets/images/services/services-details-two-img-1.jpg",
-            "thumbnail": "/assets/images/services/microneedling.jpeg",
+            "image": "/assets/images/treatments/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/treatments/microneedling.jpeg",
             "faq": [
               {
                   "question": "What is Microneedling and how does it work?",
@@ -234,8 +234,8 @@
             "smallDescription": "Exfoliate and renew your skin.",
             "longDescription": "chemical-peels.md",
             "icon": "icon-meditation",
-            "image": "/assets/images/services/services-details-two-img-1.jpg",
-            "thumbnail": "/assets/images/services/peels.jpeg",
+            "image": "/assets/images/treatments/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/treatments/peels.jpeg",
             "faq": [
               {
                   "question": "What is a chemical peel?",
@@ -281,8 +281,8 @@
             "smallDescription": "Reduce chin fat with targeted injections.",
             "longDescription": "kybella.md",
             "icon": "icon-meditation",
-            "image": "/assets/images/services/services-details-two-img-1.jpg",
-            "thumbnail": "/assets/images/services/kybella.jpeg",
+            "image": "/assets/images/treatments/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/treatments/kybella.jpeg",
             "faq": [
               {
                   "question": "How long do Kybella results last?",
@@ -311,8 +311,8 @@
             "smallDescription": "Non-invasive fat reduction for a sculpted look.",
             "longDescription": "body-contouring.md",
             "icon": "icon-meditation",
-            "image": "/assets/images/services/services-details-two-img-1.jpg",
-            "thumbnail": "/assets/images/services/body-contour.jpeg",
+            "image": "/assets/images/treatments/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/treatments/body-contour.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
@@ -345,8 +345,8 @@
             "smallDescription": "Non-surgical facelift with PDO threads.",
             "longDescription": "pdo.md",
             "icon": "icon-meditation",
-            "image": "/assets/images/services/services-details-two-img-1.jpg",
-            "thumbnail": "/assets/images/services/PDO.jpeg",
+            "image": "/assets/images/treatments/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/treatments/PDO.jpeg",
             "faq": [
                   {
                       "question": "How long do PDO Thread results last?",
@@ -375,8 +375,8 @@
             "smallDescription": "Regenerative therapy using exosomes.",
             "longDescription": "exomes.md",
             "icon": "icon-meditation",
-            "image": "/assets/images/services/services-details-two-img-1.jpg",
-            "thumbnail": "/assets/images/services/exomes.jpeg",
+            "image": "/assets/images/treatments/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/treatments/exomes.jpeg",
             "faq": [
               {
                   "question": "What are exosomes, and how do they work?",
@@ -414,8 +414,8 @@
             "smallDescription": "Tailored weight loss programs for lasting results.",
             "longDescription": "dermal.md",
             "icon": "icon-meditation",
-            "image": "/assets/images/services/services-details-two-img-1.jpg",
-            "thumbnail": "/assets/images/services/weight.jpeg",
+            "image": "/assets/images/treatments/services-details-two-img-1.jpg",
+            "thumbnail": "/assets/images/treatments/weight.jpeg",
             "faq": [
               {
                 "question": "What is the right spa for me?",
