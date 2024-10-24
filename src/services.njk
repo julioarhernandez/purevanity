@@ -50,7 +50,12 @@ permalink: /treatments/
               </div>
             </div>
             <h3 class="services-one__title">
-              <a href="spa-facials.html">{{ service.title }}</a>
+              <a
+                href="/treatments/{{ serviceCategory.title | slug }}/{{
+                  service.title | slugify
+                }}/"
+                >{{ service.title }}</a
+              >
             </h3>
             <p class="services-one__text">
               {{ service.smallDescription }}
