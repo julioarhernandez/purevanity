@@ -1,5 +1,5 @@
 <p class="services-details-two__text-2">
-  Kybella is a non-surgical treatment designed to reduce submental fullness, commonly known as a double chin. Unlike invasive surgical procedures, Kybella is a minimally invasive option that uses deoxycholic acid, a naturally occurring substance in the body that helps break down fat cells. 
+  Kybella is a non-surgical treatment designed to reduce submental fat, commonly known as a double chin. Unlike invasive surgical procedures, Kybella is a minimally invasive option that uses deoxycholic acid, a naturally occurring substance in the body that helps break down fat cells. 
 </p>
 <p class="services-details-two__text-2">
     This treatment is perfect for individuals looking for a quick, effective way to enhance their facial profile without undergoing surgery. The results are long-lasting, providing a slimmer, more contoured look in the treated area.
@@ -57,7 +57,7 @@
    Are You a Candidate for Kybella?
 </h3>
 <p class="services-details-two__text-2">
-   Kybella is ideal for adults who are bothered by excess fat under the chin, leading to a double chin. It is most effective for those who have moderate to severe submental fullness and are looking for a non-surgical solution to address this concern.
+   Kybella is ideal for adults who are bothered by excess fat under the chin, leading to a double chin. It is most effective for those who have moderate to severe submental fat and are looking for a non-surgical solution to address this concern.
 </p>
 <p class="services-details-two__text-2">
     If you are in good general health, maintain a stable weight, and have realistic expectations about the outcome, you may be an excellent candidate for Kybella. A consultation with a medical professional can help determine if this treatment is right for you.
@@ -104,7 +104,7 @@
    What Issues Can Kybella Address?
 </h3>
 <p class="services-details-two__text-2">
-   Kybella is an FDA-approved injectable treatment that targets and eliminates fat cells under the chin, helping to reduce the appearance of a double chin. This treatment is perfect for individuals looking for a non-surgical solution to address submental fullness.
+   Kybella is an FDA-approved injectable treatment that targets and eliminates fat cells under the chin, helping to reduce the appearance of a double chin. This treatment is perfect for individuals looking for a non-surgical solution to address submental fat.
 </p>
 <p class="services-details-two__text-2">
    By breaking down fat cells, Kybella provides a more contoured and defined jawline. It is ideal for those who are otherwise healthy but struggle with fat in this particular area, despite diet and exercise.

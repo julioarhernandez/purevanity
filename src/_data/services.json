@@ -20,7 +20,7 @@
           "longDescription": "skin-boosters.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
-          "thumbnail": "/assets/images/services/wrinkle.jpeg"
+          "thumbnail": "/assets/images/services/skin-boosters.jpeg"
         },
         {
           "title": "Dermal Fillers",
@@ -108,7 +108,7 @@
           "longDescription": "radiesse-bbl.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
-          "thumbnail": "/assets/images/services/jaw.jpeg"
+          "thumbnail": "/assets/images/services/sculptra.jpeg"
         },
 
         {
@@ -117,7 +117,7 @@
           "longDescription": "cellulite.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
-          "thumbnail": "/assets/images/services/microneedling.jpeg"
+          "thumbnail": "/assets/images/services/cellulite.jpeg"
         },
         {
           "title": "Kybella",
@@ -149,7 +149,7 @@
           "longDescription": "chin-contouring.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
-          "thumbnail": "/assets/images/services/jaw.jpeg"
+          "thumbnail": "/assets/images/services/chin.jpeg"
         },
         {
           "title": "Non-surgical rhinoplasty",
@@ -157,7 +157,7 @@
           "longDescription": "rhinoplasty.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
-          "thumbnail": "/assets/images/services/jaw.jpeg"
+          "thumbnail": "/assets/images/services/rhynoplasty.jpeg"
         },
         {
           "title": "Non-surgical neck lift",
@@ -165,7 +165,7 @@
           "longDescription": "neck-lift.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
-          "thumbnail": "/assets/images/services/jaw.jpeg"
+          "thumbnail": "/assets/images/services/neck.jpeg"
         },
         {
           "title": "Hand rejuvenation",
@@ -173,7 +173,7 @@
           "longDescription": "hand-rejuvenation.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
-          "thumbnail": "/assets/images/services/jaw.jpeg"
+          "thumbnail": "/assets/images/services/hands.jpeg"
         }
       ]
     },
