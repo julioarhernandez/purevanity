@@ -1076,8 +1076,8 @@ ul {
 .sticky-header .main-menu__list>li>ul>li>a,
 .sticky-header .main-menu__list>li>ul>li>ul>li>a {
   position: relative;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 20px;
   color: var(--pure-vanity-black);
   font-weight: 500;
   display: -webkit-box;
@@ -1327,17 +1327,18 @@ ul {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  line-height: 30px;
+  line-height: 18px;
   color: #ffffff;
   font-size: 14px;
   font-family: var(--pure-vanity-font);
   /* font-weight: 500; */
-  height: 46px;
+  height: 56px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-transition: 500ms;
   transition: 500ms;
+  
 }
 
 .mobile-nav__content .main-menu__list>li>a.expanded .mobile-nav__content .main-menu__list>li>ul>li>a.expanded .mobile-nav__content .main-menu__list>li>ul>li>ul>li>a.expanded {
@@ -1352,6 +1353,7 @@ ul {
 .mobile-nav__content .main-menu__list>li>ul>li>a>button,
 .mobile-nav__content .main-menu__list>li>ul>li>ul>li>a>button {
   width: 30px;
+  min-width: 30px;
   height: 30px;
   background-color: var(--pure-vanity-base);
   border: none;
