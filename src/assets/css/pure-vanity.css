@@ -6979,6 +6979,7 @@ text-align: center;
   display: flex;
   position: relative;
   align-items: center;
+  cursor: pointer;
 }
 
 .services-details-two__category-list__title-wrapper i{
@@ -7013,14 +7014,18 @@ text-align: center;
   display: block;
 }
 
+.services-details-two__category-list > li {
+  margin-bottom: 20px;
+}
+
 .services-details-two__category-list li h1, 
 .services-details-two__category-list li h2,
 .services-details-two__category-list li h3,
 .services-details-two__category-list li h4,
 .services-details-two__category-list li h5,
 .services-details-two__category-list li h6{
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 16px;
+    font-weight: 500;
 }
 
 

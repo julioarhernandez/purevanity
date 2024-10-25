@@ -1037,5 +1037,22 @@
   // Set interval to change background every 4 seconds
   setInterval(changeBackground, 4000);
 
+  // Collapsible service detail navigation
+
+  // Step 1: Collapse all sublists initially
+  $(".service-details-sublist").hide();
+
+  // Step 2: Find the sublist containing an .active item and expand it
+  $(".service-details-sublist").has("li.active").show();
+
+  // Step 3: Toggle functionality on each title wrapper
+  $(".services-details-two__category-list__title-wrapper").click(function () {
+    // Find the sublist within the clicked list item and toggle it
+    $(this).next(".service-details-sublist").slideToggle(300);
+
+    // Optional: Close other open sublists
+    $(".service-details-sublist").not($(this).next()).slideUp(300);
+  });
+
   // $("select:not(.ignore)").niceSelect();
 })(jQuery);

@@ -6,7 +6,7 @@
       <i class="fa fa-spa"></i>
       <h4>{{ category.title }}</h4>
     </div>
-    <ul class="list-unstyled py-4 service-details-sublist">
+    <ul class="list-unstyled pt-4 service-details-sublist">
       <!-- Loop through services within each category -->
       {% for service in category.services %} {% set url_slug = page.url |
       split('/') | last %} {% if url_slug == (service.title | slug) %} {% set
