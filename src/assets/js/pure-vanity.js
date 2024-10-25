@@ -1009,5 +1009,33 @@
     });
   }
 
+  //change background dynamically
+  const section = $(".main-slider-home");
+
+  // Array of image URLs
+  const images = [
+    "/assets/images/hero-woman.jpg",
+    "/assets/images/hero-woman-2.jpg",
+    "/assets/images/hero-woman-3.jpg",
+    "/assets/images/hero-woman-4.jpg",
+    "/assets/images/hero-woman-5.jpg",
+    "/assets/images/hero-woman-6.jpg",
+  ];
+
+  let currentIndex = 0;
+
+  function changeBackground() {
+    currentIndex = (currentIndex + 1) % images.length; // Cycle through images
+
+    // Fade out, change image, then fade back in
+    section.fadeOut(500, function () {
+      section.css("background-image", `url(${images[currentIndex]})`);
+      section.fadeIn(500);
+    });
+  }
+
+  // Set interval to change background every 4 seconds
+  setInterval(changeBackground, 4000);
+
   // $("select:not(.ignore)").niceSelect();
 })(jQuery);
