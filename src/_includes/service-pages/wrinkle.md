@@ -45,14 +45,6 @@
             <span class="fa fa-check"></span>
         </div>
         <div class="text">
-            <p>No Downtime: You can resume normal activities immediately.</p>
-        </div>
-    </li>
-    <li>
-        <div class="icon">
-            <span class="fa fa-check"></span>
-        </div>
-        <div class="text">
             <p>Minimal Discomfort: The injections feel like tiny pinches and don’t usually require numbing.</p>
         </div>
     </li>
