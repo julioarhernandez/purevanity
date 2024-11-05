@@ -1,9 +1,9 @@
 <p class="services-details-two__text-1">
-   Wrinkle relaxers, including Botox and Dysport, are non-surgical treatments designed to reduce the appearance of dynamic wrinkles by temporarily relaxing the underlying muscles. These injectables are made from botulinum toxin, a neurotoxic protein that, when administered in small doses, blocks nerve signals to specific facial muscles, reducing their movement. Over time, repetitive muscle movements lead to fine lines and wrinkles, especially around the eyes (crow’s feet), forehead, and between the eyebrows. By halting these movements, wrinkle relaxers help smooth the skin, leading to a more youthful appearance.
+   Wrinkle relaxers, including Botox® and Dysport®, are non-surgical treatments designed to reduce the appearance of dynamic wrinkles by temporarily relaxing the underlying muscles. These injectables are made from botulinum toxin, a neurotoxic protein that, when administered in small doses, blocks nerve signals to specific facial muscles, reducing their movement. Over time, repetitive muscle movements lead to fine lines and wrinkles, especially around the eyes (crow’s feet), forehead, and between the eyebrows. By halting these movements, wrinkle relaxers help smooth the skin, leading to a more youthful appearance.
 </p>
 
 <p class="services-details-two__text-2">
-   Both Botox and Dysport are FDA-approved and among the most widely used non-invasive cosmetic treatments globally. While both brands serve similar purposes, subtle differences in their formulation allow for slight variations in spread and onset of action. This makes them adaptable to a range of aesthetic needs, making it crucial to consult a qualified provider to determine which one is right for you.
+   Both Botox® and Dysport® are FDA-approved and among the most widely used non-invasive cosmetic treatments globally. While both brands serve similar purposes, subtle differences in their formulation allow for slight variations in spread and onset of action. This makes them adaptable to a range of aesthetic needs, making it crucial to consult a qualified provider to determine which one is right for you.
 </p>
 
 <h3 class="services-details-two__title-2">
@@ -11,18 +11,18 @@
 </h3>
 
 <p class="services-details-two__text-2">
-   Aging is inevitable, but wrinkle relaxers can delay visible signs of aging without the need for surgery. The treatments are fast, effective, and come with minimal downtime, allowing patients to maintain a youthful and vibrant appearance with ease. The non-permanent nature of Botox and Dysport is also attractive, as results last for a few months, giving you the flexibility to adapt your aesthetic goals over time.
+   Aging is inevitable, but wrinkle relaxers can delay visible signs of aging without the need for surgery. The treatments are fast, effective, and come with minimal downtime, allowing patients to maintain a youthful and vibrant appearance with ease. The non-permanent nature of Botox® and Dysport® is also attractive, as results last for a few months, giving you the flexibility to adapt your aesthetic goals over time.
 </p>
 
 <p class="services-details-two__text-2">
-   In addition to their aesthetic benefits, wrinkle relaxers are also used to treat a range of medical conditions. For instance, Botox has been approved to alleviate chronic migraines, hyperhidrosis (excessive sweating), and certain muscle spasms. These dual uses make wrinkle relaxers versatile treatments beyond just cosmetic applications.
+   In addition to their aesthetic benefits, wrinkle relaxers are also used to treat a range of medical conditions. For instance, Botox® has been approved to alleviate chronic migraines, hyperhidrosis (excessive sweating), and certain muscle spasms. These dual uses make wrinkle relaxers versatile treatments beyond just cosmetic applications.
 </p>
 
 <h3 class="services-details-two__title-2">
     Comprehensive Overview of Wrinkle relaxers
 </h3>
 <p class="services-details-two__text-2">
-   Botox and Dysport belong to a family of neurotoxins known as botulinum toxin Type A. When injected into muscles responsible for creating expressions, the toxin prevents the release of acetylcholine, a neurotransmitter that facilitates muscle contraction. This blockage results in the temporary paralysis or relaxation of the muscle, which smooths the skin above it.
+   Botox® and Dysport® belong to a family of neurotoxins known as botulinum toxin Type A. When injected into muscles responsible for creating expressions, the toxin prevents the release of acetylcholine, a neurotransmitter that facilitates muscle contraction. This blockage results in the temporary paralysis or relaxation of the muscle, which smooths the skin above it.
 </p>
 <p class="services-details-two__text-2">
    The treatment is quick and relatively painless. The procedure typically takes around 10 to 30 minutes depending on the number of areas being treated, and no anesthesia is required. Because the procedure is minimally invasive, there’s little to no recovery time, making it a popular choice for those with busy lifestyles.
@@ -62,7 +62,7 @@
     Are You a Candidate for Wrinkle relaxers?
 </h3>
 <p class="services-details-two__text-2">
-   Wrinkle relaxers are suitable for a broad range of individuals, but the ideal candidate is someone experiencing early signs of dynamic wrinkles, typically from repetitive facial expressions. Patients between the ages of 25 and 65 are the most common recipients of Botox or Dysport.
+   Wrinkle relaxers are suitable for a broad range of individuals, but the ideal candidate is someone experiencing early signs of dynamic wrinkles, typically from repetitive facial expressions. Patients between the ages of 25 and 65 are the most common recipients of Botox® or Dysport®.
 </p>
 <p class="services-details-two__text-2">
    It is also essential that you are in good health and free from certain neuromuscular disorders like ALS or myasthenia gravis, as these conditions can be exacerbated by botulinum toxin. Pregnant or breastfeeding women should avoid these treatments as well. A thorough consultation with a licensed practitioner will help determine if wrinkle relaxers are safe and effective for your needs.
@@ -77,7 +77,7 @@
             <span class="fa fa-check"></span>
         </div>
         <div class="text">
-            <p>Allergies to any ingredients in Botox or Dysport.</p>
+            <p>Allergies to any ingredients in Botox® or Dysport®.</p>
         </div>
     </li>
     <li>
@@ -156,7 +156,7 @@
 </ul>
 
 <p class="services-details-two__text-2">
-    Botox and Dysport are also used to address non-aesthetic concerns like:
+    Botox® and Dysport® are also used to address non-aesthetic concerns like:
 </p>
 <ul class="services-details-two__points list-unstyled list-service">
     <li>
@@ -184,7 +184,7 @@
    Your treatment will begin with a consultation where your practitioner will assess your facial anatomy, the areas of concern, and your overall aesthetic goals. Based on this assessment, they will determine the appropriate injection sites and the amount of product needed.
 </p>
 <p class="services-details-two__text-2">
-   The actual injections are brief, with each site receiving a small dose of Botox or Dysport. Most patients describe the sensation as a minor pinch or sting. The procedure is quick, typically lasting between 15-30 minutes depending on the treatment area.
+   The actual injections are brief, with each site receiving a small dose of Botox® or Dysport®. Most patients describe the sensation as a minor pinch or sting. The procedure is quick, typically lasting between 15-30 minutes depending on the treatment area.
 </p>
 
 <h4 class="services-details-two__title-2">

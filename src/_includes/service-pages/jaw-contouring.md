@@ -1,18 +1,18 @@
 <p class="services-details-two__text-2">
-   Jaw contouring is a non-surgical treatment designed to enhance the shape and structure of your jawline. Using Radiesse, a long-lasting dermal filler, this procedure provides immediate volume and stimulation of natural collagen production, resulting in a more defined and youthful appearance. It's ideal for individuals looking to add definition or restore volume to the jawline without the need for invasive surgery.
+   Jaw contouring is a non-surgical treatment designed to enhance the shape and structure of your jawline. Using Radiesse®, a long-lasting dermal filler, this procedure provides immediate volume and stimulation of natural collagen production, resulting in a more defined and youthful appearance. It's ideal for individuals looking to add definition or restore volume to the jawline without the need for invasive surgery.
 </p>
 <p class="services-details-two__text-2">
-   The treatment is popular among those seeking a sharper, more sculpted jawline to improve their overall facial balance. Whether you're addressing age-related volume loss or enhancing your natural contours, Radiesse offers a subtle yet effective solution with minimal downtime.
+   The treatment is popular among those seeking a sharper, more sculpted jawline to improve their overall facial balance. Whether you're addressing age-related volume loss or enhancing your natural contours, Radiesse® offers a subtle yet effective solution with minimal downtime.
 </p>
 
 <h3 class="services-details-two__title-2">
    Comprehensive Overview of Jaw Contouring
 </h3>
 <p class="services-details-two__text-2">
-   Radiesse is an FDA-approved dermal filler made from calcium hydroxylapatite (CaHA) microspheres, which are naturally absorbed by the body over time. When injected into the jawline, Radiesse not only adds immediate volume but also encourages your body’s natural collagen production, creating a firmer, more structured appearance that lasts longer than traditional fillers.
+   Radiesse® is an FDA-approved dermal filler made from calcium hydroxylapatite (CaHA) microspheres, which are naturally absorbed by the body over time. When injected into the jawline, Radiesse® not only adds immediate volume but also encourages your body’s natural collagen production, creating a firmer, more structured appearance that lasts longer than traditional fillers.
 </p>
 <p class="services-details-two__text-2">
-   The treatment is quick, typically taking 30 to 45 minutes. Most patients experience minimal discomfort as a local anesthetic is often applied to the treatment area. Since Radiesse is a biostimulatory filler, its effects continue to improve over the following weeks, with results lasting up to 12 to 18 months.
+   The treatment is quick, typically taking 30 to 45 minutes. Most patients experience minimal discomfort as a local anesthetic is often applied to the treatment area. Since Radiesse® is a biostimulatory filler, its effects continue to improve over the following weeks, with results lasting up to 12 to 18 months.
 </p>
 
 <h3 class="services-details-two__title-2">
@@ -40,7 +40,7 @@
            <span class="fa fa-check"></span>
        </div>
        <div class="text">
-           <p>Collagen Stimulation: Radiesse stimulates your body’s natural collagen production for continued improvement over time.</p>
+           <p>Collagen Stimulation: Radiesse® stimulates your body’s natural collagen production for continued improvement over time.</p>
        </div>
    </li>
    <li>
@@ -67,26 +67,26 @@
    Conditions That May Disqualify You
 </h3>
 <p class="services-details-two__text-2">
-   While Jaw contouring is safe for most individuals, there are some conditions that may disqualify you from receiving this treatment. These include allergies to any of the ingredients in Radiesse, active skin infections or inflammation at the treatment site, or certain autoimmune disorders. Pregnant or breastfeeding women should also avoid Radiesse treatments.
+   While Jaw contouring is safe for most individuals, there are some conditions that may disqualify you from receiving this treatment. These include allergies to any of the ingredients in Radiesse®, active skin infections or inflammation at the treatment site, or certain autoimmune disorders. Pregnant or breastfeeding women should also avoid Radiesse® treatments.
 </p>
 <p class="services-details-two__text-2">
-   During your consultation, your provider will review your medical history and assess any potential risks to ensure Radiesse is a safe and effective option for you.
+   During your consultation, your provider will review your medical history and assess any potential risks to ensure Radiesse® is a safe and effective option for you.
 </p>
 <h3 class="services-details-two__title-2">
    What Issues Can Jaw Contouring Address?
 </h3>
 <p class="services-details-two__text-2">
-   Jaw contouring is designed to address various concerns related to jawline definition and facial structure. Whether you are looking to enhance a naturally weak jawline or restore volume lost due to aging, Radiesse offers a non-surgical solution. It can help create a sharper, more defined jawline, improve facial balance, and enhance overall symmetry.
+   Jaw contouring is designed to address various concerns related to jawline definition and facial structure. Whether you are looking to enhance a naturally weak jawline or restore volume lost due to aging, Radiesse® offers a non-surgical solution. It can help create a sharper, more defined jawline, improve facial balance, and enhance overall symmetry.
 </p>
 <p class="services-details-two__text-2">
-   This treatment is particularly beneficial for individuals who notice sagging skin, jowls, or loss of jawline structure due to age. Radiesse not only provides immediate volume but also stimulates natural collagen production, offering long-term benefits.
+   This treatment is particularly beneficial for individuals who notice sagging skin, jowls, or loss of jawline structure due to age. Radiesse® not only provides immediate volume but also stimulates natural collagen production, offering long-term benefits.
 </p>
 
 <h3 class="services-details-two__title-2">
    What to Expect During a Jaw Contouring Treatment
 </h3>
 <p class="services-details-two__text-2">
-   A Jaw contouring treatment typically takes around 30 to 45 minutes. Your provider will start by cleansing the area and possibly applying a topical anesthetic to minimize discomfort. Radiesse is then injected along the jawline using fine needles to strategically add volume and structure.
+   A Jaw contouring treatment typically takes around 30 to 45 minutes. Your provider will start by cleansing the area and possibly applying a topical anesthetic to minimize discomfort. Radiesse® is then injected along the jawline using fine needles to strategically add volume and structure.
 </p>
 <p class="services-details-two__text-2">
    The procedure is minimally invasive, and most patients report feeling only mild pressure or pinching during the injections. Once the filler is applied, the provider may gently massage the area to ensure even distribution for a smooth, natural result.
@@ -109,7 +109,7 @@
            <span class="fa fa-check"></span>
        </div>
        <div class="text">
-           <p>Collagen Stimulation: Radiesse stimulates collagen production, enhancing the results over time.</p>
+           <p>Collagen Stimulation: Radiesse® stimulates collagen production, enhancing the results over time.</p>
        </div>
    </li>
    <li>
@@ -144,7 +144,7 @@
    Alternatives to Jaw Contouring
 </h3>
 <p class="services-details-two__text-2">
-   While Radiesse is a popular choice for non-surgical jaw contouring, there are other alternatives you might consider. Hyaluronic acid fillers, such as Juvederm or Restylane, offer temporary volume enhancement with a shorter duration of results. Surgical options, like chin implants or jawline surgery, provide permanent results but involve more downtime and higher risks.
+   While Radiesse® is a popular choice for non-surgical jaw contouring, there are other alternatives you might consider. Hyaluronic acid fillers, such as Juvederm or Restylane, offer temporary volume enhancement with a shorter duration of results. Surgical options, like chin implants or jawline surgery, provide permanent results but involve more downtime and higher risks.
 </p>
 <p class="services-details-two__text-2">
    Additionally, for those looking to address sagging skin or jowls, treatments like radiofrequency skin tightening or thread lifts might be complementary or alternative solutions. Consulting with a qualified provider will help you determine the best option based on your aesthetic goals.

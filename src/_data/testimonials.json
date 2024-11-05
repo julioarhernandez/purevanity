@@ -1,40 +1,39 @@
 {
-    "testimonials": [
-      {
-        "name": "Sarah Johnson",
-        "subtitle": "Botox & Fillers Customer",
-        "avatar": "/assets/images/testimonial-1.jpeg",
-        "review": "I had Botox and fillers done here, and I’m amazed by the results! My wrinkles have significantly reduced, and I feel years younger. The staff made me feel comfortable and the process was smooth.",
-        "rating": 5
-      },
-      {
-        "name": "Emily White",
-        "subtitle": "Microneedling Customer",
-        "avatar": "/assets/images/testimonial-2.jpeg",
-        "review": "The microneedling treatment worked wonders for my skin texture. My skin feels smoother, and the fine lines have diminished. Highly recommend this place for anyone looking for rejuvenation!",
-        "rating": 5
-      },
-      {
-        "name": "Michael Green",
-        "subtitle": "Wrinkle Treatment Customer",
-        "avatar": "/assets/images/testimonial-3.jpeg",
-        "review": "I’ve been getting wrinkle treatments here for over a year, and the results are consistently fantastic. The team is professional, and they truly care about providing the best experience possible.",
-        "rating": 5
-      },
-      {
-        "name": "Jessica Lee",
-        "subtitle": "Sculptra Treatment Customer",
-        "avatar": "/assets/images/testimonial-5.jpeg",
-        "review": "The results from my Sculptra treatment were incredible! My face has a natural lift and volume, and it keeps improving over time. This place is now my go-to for all my aesthetic needs.",
-        "rating": 5
-      },
-      {
-        "name": "David Brown",
-        "subtitle": "Radiesse Treatment Customer",
-        "avatar": "/assets/images/testimonial-4.jpeg",
-        "review": "After my Radiesse treatment, the results were visible almost immediately. My jawline looks more defined, and I couldn’t be happier. The team is highly skilled and ensures you get the best care.",
-        "rating": 5
-      }
-    ]
-  }
-  
+  "testimonials": [
+    {
+      "name": "Sarah Johnson",
+      "subtitle": "Botox® & Fillers Customer",
+      "avatar": "/assets/images/testimonial-1.jpeg",
+      "review": "I had Botox and fillers done here, and I’m amazed by the results! My wrinkles have significantly reduced, and I feel years younger. The staff made me feel comfortable and the process was smooth.",
+      "rating": 5
+    },
+    {
+      "name": "Emily White",
+      "subtitle": "Microneedling Customer",
+      "avatar": "/assets/images/testimonial-2.jpeg",
+      "review": "The microneedling treatment worked wonders for my skin texture. My skin feels smoother, and the fine lines have diminished. Highly recommend this place for anyone looking for rejuvenation!",
+      "rating": 5
+    },
+    {
+      "name": "Michael Green",
+      "subtitle": "Wrinkle Treatment Customer",
+      "avatar": "/assets/images/testimonial-3.jpeg",
+      "review": "I’ve been getting wrinkle treatments here for over a year, and the results are consistently fantastic. The team is professional, and they truly care about providing the best experience possible.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica Lee",
+      "subtitle": "Sculptra®  Treatment Customer",
+      "avatar": "/assets/images/testimonial-5.jpeg",
+      "review": "The results from my Sculptra®  treatment were incredible! My face has a natural lift and volume, and it keeps improving over time. This place is now my go-to for all my aesthetic needs.",
+      "rating": 5
+    },
+    {
+      "name": "David Brown",
+      "subtitle": "Radiesse® Treatment Customer",
+      "avatar": "/assets/images/testimonial-4.jpeg",
+      "review": "After my Radiesse treatment, the results were visible almost immediately. My jawline looks more defined, and I couldn’t be happier. The team is highly skilled and ensures you get the best care.",
+      "rating": 5
+    }
+  ]
+}

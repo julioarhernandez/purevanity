@@ -8,7 +8,7 @@
       "services": [
         {
           "title": "Wrinkle Relaxers",
-          "smallDescription": "Smooth out fine lines and dynamic wrinkles.",
+          "smallDescription": "Smooth out fine lines and dynamic wrinkles with Botox®, Jeuveau®, Dysport®, Xeomin®.",
           "longDescription": "wrinkle.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
@@ -32,7 +32,7 @@
         },
         {
           "title": "Biostimulators",
-          "smallDescription": "Stimulate collagen for long-lasting volume.",
+          "smallDescription": "Stimulate collagen and elastin for long-lasting volume.",
           "longDescription": "biostimulators.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
@@ -95,7 +95,7 @@
       "longDescription": "",
       "services": [
         {
-          "title": "Sculptra BBL",
+          "title": "Sculptra®  BBL",
           "smallDescription": "Non-surgical Brazilian Butt Lift using Sculptra.",
           "longDescription": "sculptra-bbl.md",
           "icon": "icon-meditation",
@@ -103,8 +103,8 @@
           "thumbnail": "/assets/images/services/sculptra.jpeg"
         },
         {
-          "title": "Radiesse BBL",
-          "smallDescription": "Lift, shape, and contour your curves with Radiesse—no surgery needed!",
+          "title": "Radiesse® BBL",
+          "smallDescription": "Lift, shape, and contour your curves with Radiesse®, no surgery needed!",
           "longDescription": "radiesse-bbl.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
@@ -120,7 +120,7 @@
           "thumbnail": "/assets/images/services/cellulite.jpeg"
         },
         {
-          "title": "Kybella",
+          "title": "Kybella®   ",
           "smallDescription": "Reduce chin fat with targeted injections.",
           "longDescription": "kybella.md",
           "icon": "icon-meditation",
@@ -137,7 +137,7 @@
       "services": [
         {
           "title": "Jaw Contouring",
-          "smallDescription": "Define your jawline with Radiesse.",
+          "smallDescription": "Enhance and define your jawline with Radiesse for a strong, balanced look.",
           "longDescription": "jaw-contouring.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
@@ -145,7 +145,7 @@
         },
         {
           "title": "Chin Contouring",
-          "smallDescription": "Define your jawline with Radiesse.",
+          "smallDescription": "Achieve a sculpted, harmonious chin profile with Radiesse’s precise contouring.",
           "longDescription": "chin-contouring.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
@@ -153,7 +153,7 @@
         },
         {
           "title": "Non-surgical rhinoplasty",
-          "smallDescription": "Define your jawline with Radiesse.",
+          "smallDescription": "Refine your nose shape and symmetry without surgery, using Radiesse® for subtle enhancement.",
           "longDescription": "rhinoplasty.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
@@ -161,7 +161,7 @@
         },
         {
           "title": "Non-surgical neck lift",
-          "smallDescription": "Define your jawline with Radiesse.",
+          "smallDescription": "Lift and tighten the appearance of your neck for a rejuvenated, youthful look.",
           "longDescription": "neck-lift.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
@@ -169,7 +169,7 @@
         },
         {
           "title": "Hand rejuvenation",
-          "smallDescription": "Define your jawline with Radiesse.",
+          "smallDescription": "Restore volume and smoothness to aging hands with Radiesse®, revitalizing their natural beauty.",
           "longDescription": "hand-rejuvenation.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",

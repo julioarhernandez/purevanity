@@ -175,7 +175,7 @@
            <span class="fa fa-check"></span>
        </div>
        <div class="text">
-           <p>Botox for dynamic wrinkles and fine lines.</p>
+           <p>Botox® for dynamic wrinkles and fine lines.</p>
        </div>
    </li>
    <li>

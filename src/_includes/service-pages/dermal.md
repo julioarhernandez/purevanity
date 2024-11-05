@@ -113,5 +113,5 @@
    Alternatives to Dermal Fillers
 </h3>
 <p class="services-details-two__text-2">
-   For those seeking non-invasive cosmetic enhancements but looking for alternatives to dermal fillers, options such as Botox, microneedling, or PDO threads may be suitable. Botox works by temporarily relaxing facial muscles to reduce dynamic wrinkles, while microneedling stimulates collagen production to improve skin texture. PDO threads provide a subtle lifting effect by threading dissolvable sutures under the skin. Each treatment targets different concerns, and a consultation with a qualified provider will help determine the best option for your goals.
+   For those seeking non-invasive cosmetic enhancements but looking for alternatives to dermal fillers, options such as Botox®, microneedling, or PDO threads may be suitable. Botox® works by temporarily relaxing facial muscles to reduce dynamic wrinkles, while microneedling stimulates collagen production to improve skin texture. PDO threads provide a subtle lifting effect by threading dissolvable sutures under the skin. Each treatment targets different concerns, and a consultation with a qualified provider will help determine the best option for your goals.
 </p>

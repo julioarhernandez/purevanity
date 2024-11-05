@@ -1,12 +1,12 @@
 <p class="services-details-two__text-2">
-   Biostimulators, like Sculptra and Radiesse, offer a unique approach to facial rejuvenation by stimulating your skin's natural collagen and elastin production. Unlike traditional dermal fillers, which add volume immediately, biostimulators work gradually over time to restore lost facial volume, improve skin texture, and provide long-lasting results. They are ideal for those seeking a more natural, gradual improvement in their appearance.
+   Biostimulators, like Sculptra®  and Radiesse®, offer a unique approach to facial rejuvenation by stimulating your skin's natural collagen and elastin production. Unlike traditional dermal fillers, which add volume immediately, biostimulators work gradually over time to restore lost facial volume, improve skin texture, and provide long-lasting results. They are ideal for those seeking a more natural, gradual improvement in their appearance.
 </p>
 
 <h3 class="services-details-two__title-2">
    Comprehensive Overview of Biostimulators
 </h3>
 <p class="services-details-two__text-2">
-   Biostimulators are injectable treatments that promote collagen and elastin production, which naturally diminishes as we age. By boosting collagen and elastin, these treatments gradually restore facial volume, reduce wrinkles, and enhance skin elasticity. The most common biostimulators used in aesthetics are Sculptra and Radiesse. Sculptra is a poly-L-lactic acid-based product, while Radiesse is made of calcium hydroxylapatite, both biocompatible substances that help your body rebuild its structural foundation.
+   Biostimulators are injectable treatments that promote collagen and elastin production, which naturally diminishes as we age. By boosting collagen and elastin, these treatments gradually restore facial volume, reduce wrinkles, and enhance skin elasticity. The most common biostimulators used in aesthetics are Sculptra®  and Radiesse®. Sculptra®  is a poly-L-lactic acid-based product, while Radiesse® is made of calcium hydroxylapatite, both biocompatible substances that help your body rebuild its structural foundation.
 </p>
 <p class="services-details-two__text-2">
    The treatment process is quick, with sessions typically lasting 30-60 minutes depending on the areas being treated. Patients may require multiple sessions over several months to achieve optimal results, but the benefits can last up to two years or more.
@@ -67,7 +67,7 @@
    What Issues Can Biostimulators Address?
 </h3>
 <p class="services-details-two__text-2">
-   Biostimulators, such as Sculptra and Radiesse, are advanced treatments that stimulate your body's natural collagen and elastin production. These treatments are ideal for addressing age-related volume loss, fine lines, wrinkles, and skin laxity. By encouraging the skin to rebuild its internal structure, biostimulators provide long-lasting, natural-looking results, making them perfect for enhancing facial contours, reducing deep folds, and improving skin texture.
+   Biostimulators, such as Sculptra®  and Radiesse, are advanced treatments that stimulate your body's natural collagen and elastin production. These treatments are ideal for addressing age-related volume loss, fine lines, wrinkles, and skin laxity. By encouraging the skin to rebuild its internal structure, biostimulators provide long-lasting, natural-looking results, making them perfect for enhancing facial contours, reducing deep folds, and improving skin texture.
 </p>
 
 <h3 class="services-details-two__title-2">
