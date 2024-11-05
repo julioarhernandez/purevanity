@@ -144,7 +144,7 @@
    Alternatives to Platelet-Rich Plasma (PRP)
 </h3>
 <p class="services-details-two__text-2">
-   While PRP is an effective and natural treatment, there are other alternatives available depending on your goals. Dermal fillers, microneedling with radiofrequency, and laser resurfacing are popular alternatives for skin rejuvenation. For hair loss, treatments like hair transplants or minoxidil may also be considered.
+   While PRP is an effective and natural treatment, there are other alternatives available depending on your goals. Dermal fillers and microneedling are popular alternatives for skin rejuvenation. For hair loss, treatments like hair transplants or minoxidil may also be considered.
 </p>
 <p class="services-details-two__text-2">
    Consulting with a qualified professional will help determine whether PRP is the right treatment for you, or if a combination of treatments would provide the best results for your skin or hair concerns.

@@ -148,5 +148,5 @@
    While Chin Contouring with dermal fillers is a popular choice for non-surgical enhancement, other alternatives may be considered. Hyaluronic acid fillers, such as Juvederm or Restylane, offer temporary volume enhancement with a shorter duration of results. Surgical options, like chin implants or jawline surgery, provide permanent results but involve more downtime and higher risks.
 </p>
 <p class="services-details-two__text-2">
-   Additionally, for those looking to address sagging skin or jowls, treatments like radiofrequency skin tightening or thread lifts might be complementary or alternative solutions. Consulting with a qualified provider will help you determine the best option based on your aesthetic goals.
+   Additionally, for those looking to address sagging skin or jowls, treatments like thread lifts might be complementary or alternative solutions. Consulting with a qualified provider will help you determine the best option based on your aesthetic goals.
 </p>

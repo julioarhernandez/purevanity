@@ -144,7 +144,7 @@
    Alternatives to Microneedling
 </h3>
 <p class="services-details-two__text-2">
-   While microneedling is highly effective, there are alternative treatments that can achieve similar results. Options such as laser skin resurfacing, chemical peels, or radiofrequency treatments may be suitable for individuals with specific skin concerns or preferences. These treatments vary in terms of intensity, downtime, and the skin conditions they target.
+   While microneedling is highly effective, there are alternative treatments that can achieve similar results. Options such as chemical peels treatments may be suitable for individuals with specific skin concerns or preferences. These treatments vary in terms of intensity, downtime, and the skin conditions they target.
 </p>
 <p class="services-details-two__text-2">
    A consultation with your provider will help determine the best course of action based on your skin type, concerns, and desired results. Microneedling is often combined with other treatments like PRP (platelet-rich plasma) to further enhance results.

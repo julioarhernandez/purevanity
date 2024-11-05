@@ -240,14 +240,6 @@
             <span class="fa fa-check"></span>
         </div>
         <div class="text">
-            <p>Laser Resurfacing: Promotes collagen production and improves skin texture.</p>
-        </div>
-    </li>
-    <li>
-        <div class="icon">
-            <span class="fa fa-check"></span>
-        </div>
-        <div class="text">
             <p>Chemical Peels: Remove the outer layer of skin to reduce wrinkles.</p>
         </div>
     </li>

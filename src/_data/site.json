@@ -1,87 +1,84 @@
 {
-    "fonts": [
-       "Montserrat:400,700,200,900",
-       "Open Sans Condensed:700"
-    ],
-    "showsocial": true,
-    "navlinks": [
-       {
-          "text": "Home",
-          "href": "/"
-       },
-       {
-          "text": "About",
-          "href": "/about/"
-       },
-       {
-          "text": "Services",
-          "href": "/services/",
-          "subitems": [
-             {
-                "text": "Web",
-                "href": "/services/web/"
-             },
-             {
-                "text": "Digital",
-                "href": "/services/digital/"
-             },
-             {
-                "text": "Hosting",
-                "href": "/services/hosting-dominio/"
-             }
-          ]
-       },
-       {
-          "text": "Pricing",
-          "href": "/pricing/",
-          "subitems": [
-             {
-                "text": "Basic",
-                "href": "/services/web/"
-             },
-             {
-                "text": "Professional",
-                "href": "/services/digital/"
-             },
-             {
-                "text": "Business",
-                "href": "/services/hosting-dominio/"
-             }
-          ]
-       },
-       {
-          "text": "Contact us",
-          "href": "/contactus/"
-       }
-    ],
-    "social": [
-       {
-          "icon": "fi flaticon-twitter",
-          "name": "twitter",
-          "href": "https://twitter.com/bizmarketingus",
-          "btn": "btn-twitter",
-          "class": "icon-1"
-       },
-       {
-          "icon": "flaticon-facebook-circle",
-          "name": "facebook",
-          "href": "https://www.facebook.com/bizmarketing.us",
-          "btn": "btn-facebook",
-          "class": "icon-1"
-       },
-       {
-          "icon": "flaticon-instagram-circle",
-          "name": "instagram",
-          "href": "https://www.instagram.com/bizmarketing.us/",
-          "btn": "btn-instagram",
-          "class": "icon-1"
-       }
-    ],
-    "themeColor": "#f7941d",
-    "productionUrl": "https://lawn.bizmarketing.us",
-    "phoneText": "(305) 302 1700",
-    "phoneUrl": "tel:+13053021700",
-    "email": "gc_orellana@outlook.com",
-    "address": "1750 N University Dr Suite 204",
-    "address2": "Coral Springs, FL 33071"
- }
+  "fonts": ["Montserrat:400,700,200,900", "Open Sans Condensed:700"],
+  "showsocial": true,
+  "navlinks": [
+    {
+      "text": "Home",
+      "href": "/"
+    },
+    {
+      "text": "About",
+      "href": "/about/"
+    },
+    {
+      "text": "Services",
+      "href": "/services/",
+      "subitems": [
+        {
+          "text": "Web",
+          "href": "/services/web/"
+        },
+        {
+          "text": "Digital",
+          "href": "/services/digital/"
+        },
+        {
+          "text": "Hosting",
+          "href": "/services/hosting-dominio/"
+        }
+      ]
+    },
+    {
+      "text": "Pricing",
+      "href": "/pricing/",
+      "subitems": [
+        {
+          "text": "Basic",
+          "href": "/services/web/"
+        },
+        {
+          "text": "Professional",
+          "href": "/services/digital/"
+        },
+        {
+          "text": "Business",
+          "href": "/services/hosting-dominio/"
+        }
+      ]
+    },
+    {
+      "text": "Contact us",
+      "href": "/contactus/"
+    }
+  ],
+  "social": [
+    {
+      "icon": "fi flaticon-twitter",
+      "name": "twitter",
+      "href": "https://twitter.com/bizmarketingus",
+      "btn": "btn-twitter",
+      "class": "icon-1"
+    },
+    {
+      "icon": "flaticon-facebook-circle",
+      "name": "facebook",
+      "href": "https://www.facebook.com/bizmarketing.us",
+      "btn": "btn-facebook",
+      "class": "icon-1"
+    },
+    {
+      "icon": "flaticon-instagram-circle",
+      "name": "instagram",
+      "href": "https://www.instagram.com/bizmarketing.us/",
+      "btn": "btn-instagram",
+      "class": "icon-1"
+    }
+  ],
+  "themeColor": "#f7941d",
+  "productionUrl": "https://lawn.bizmarketing.us",
+  "phoneText": "(305) 302 1700",
+  "phoneUrl": "tel:+13053021700",
+  "email": "graci@purevanitymedspa.com",
+  "address": "1750 N University Dr Suite 204",
+  "address2": "Coral Springs, FL 33071"
+}

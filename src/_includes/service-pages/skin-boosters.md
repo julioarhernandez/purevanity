@@ -223,14 +223,7 @@
             <p>PRP (Platelet-Rich Plasma): Boosts collagen production for improved skin texture.</p>
         </div>
     </li>
-    <li>
-        <div class="icon">
-            <span class="fa fa-check"></span>
-        </div>
-        <div class="text">
-            <p>Laser Resurfacing: Enhances skin texture and reduces fine lines.</p>
-        </div>
-    </li>
+
     <li>
         <div class="icon">
             <span class="fa fa-check"></span>
@@ -239,6 +232,7 @@
             <p>Microneedling: Stimulates collagen for firmer, smoother skin.</p>
         </div>
     </li>
+
 </ul>
 
 <h3 class="services-details-two__title-2">

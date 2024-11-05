@@ -2,14 +2,14 @@
    A nonsurgical neck lift is a cosmetic treatment designed to rejuvenate the neck area by tightening and smoothing loose skin without incisions or surgery. This approach can improve the look of fine lines, mild sagging, and uneven texture, providing a refreshed, more youthful neck appearance. It’s a popular option for those seeking subtle enhancement without the recovery time of surgery.
 </p>
 <p class="services-details-two__text-2">
-   This nonsurgical option is ideal for individuals interested in reducing mild skin laxity, improving skin texture, and enhancing the overall contour of the neck and jawline. By combining treatments such as radiofrequency and injectables, it offers a conservative approach to neck rejuvenation.
+   This nonsurgical option is ideal for individuals interested in reducing mild skin laxity, improving skin texture, and enhancing the overall contour of the neck and jawline. By combining treatments such as injectables, it offers a conservative approach to neck rejuvenation.
 </p>
 
 <h3 class="services-details-two__title-2">
    Overview of Nonsurgical Neck Lift Treatments
 </h3>
 <p class="services-details-two__text-2">
-   A nonsurgical neck lift typically involves multiple treatments, such as radiofrequency, ultrasound, or injectables, to tighten skin and improve overall texture. While these treatments offer gradual results, they provide a gentler alternative to surgery and can maintain a youthful neck appearance with minimal downtime.
+   A nonsurgical neck lift typically involves multiple treatments, such as injectables, to tighten skin and improve overall texture. While these treatments offer gradual results, they provide a gentler alternative to surgery and can maintain a youthful neck appearance with minimal downtime.
 </p>
 <p class="services-details-two__text-2">
    Each treatment session is brief and targets the skin’s deeper layers, helping stimulate collagen production for lasting results. These procedures are performed in-office and allow patients to return to daily activities shortly after.
@@ -87,7 +87,7 @@
    Treatment Process for a Nonsurgical Neck Lift
 </h3>
 <p class="services-details-two__text-2">
-   The treatment process involves noninvasive techniques, like radiofrequency, ultrasound, or microneedling, which penetrate the skin’s surface to stimulate collagen and elastin. Some treatments may require numbing cream to ensure comfort. 
+   The treatment process involves noninvasive techniques, like microneedling, which penetrate the skin’s surface to stimulate collagen and elastin. Some treatments may require numbing cream to ensure comfort. 
 </p>
 <p class="services-details-two__text-2">
    The procedure is brief, and any redness or swelling typically resolves within a few hours to a few days, allowing for minimal disruption to daily activities.

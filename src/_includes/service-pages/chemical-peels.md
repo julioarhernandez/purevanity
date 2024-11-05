@@ -144,7 +144,7 @@
    Alternatives to Chemical Peels
 </h3>
 <p class="services-details-two__text-2">
-   If you're looking for alternatives to chemical peels, there are several options that can provide similar rejuvenating effects. These include laser skin resurfacing, microdermabrasion, and dermaplaning, all of which help exfoliate the skin and promote collagen production. Each treatment has its own benefits and may be recommended based on your skin type and goals.
+   If you're looking for alternatives to chemical peels, there are several options that can provide similar rejuvenating effects. These include microdermabrasion, and dermaplaning, all of which help exfoliate the skin and promote collagen production. Each treatment has its own benefits and may be recommended based on your skin type and goals.
 </p>
 <p class="services-details-two__text-2">
    Consult with a skincare professional to determine the best approach for your specific concerns. In some cases, combining chemical peels with other treatments can enhance your results and provide more comprehensive skin rejuvenation.

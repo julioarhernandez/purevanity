@@ -1,5 +1,5 @@
 <p class="services-details-two__text-2">
-   Cellulite Reduction therapy is a non-invasive treatment designed to target and reduce the appearance of cellulite. This therapy utilizes hyperdilute Radiesse to improve skin texture and firmness, resulting in smoother, more even skin. It's ideal for individuals looking to enhance skin tone and reduce the dimpled appearance often associated with cellulite.
+   Cellulite Reduction therapy is a non-invasive treatment designed to target and reduce the appearance of cellulite. This therapy utilizes hyperdilute Radiesse® to improve skin texture and firmness, resulting in smoother, more even skin. It's ideal for individuals looking to enhance skin tone and reduce the dimpled appearance often associated with cellulite.
 </p>
 <p class="services-details-two__text-2">
    The treatment is popular among those seeking to improve body contours and enhance skin smoothness in areas commonly affected, such as the thighs, hips, and abdomen. With minimal downtime and effective results, this approach offers a comfortable and efficient solution.
@@ -9,7 +9,7 @@
    Comprehensive Overview
 </h3>
 <p class="services-details-two__text-2">
-   The procedure using hyperdilute Radiesse works by stimulating collagen production and restoring volume in targeted areas. This method helps improve skin texture and elasticity, offering long-lasting results for smoother, firmer skin.
+   The procedure using hyperdilute Radiesse® works by stimulating collagen production and restoring volume in targeted areas. This method helps improve skin texture and elasticity, offering long-lasting results for smoother, firmer skin.
 </p>
 <p class="services-details-two__text-2">
    The treatment is quick, typically taking 30 to 45 minutes, with minimal discomfort as it is non-invasive. Results continue to improve as collagen production is stimulated, providing a natural enhancement in skin firmness and tone over the following weeks.
@@ -87,7 +87,7 @@
    What to Expect During a Session
 </h3>
 <p class="services-details-two__text-2">
-   A session typically takes around 30 to 45 minutes. The provider will start by preparing the area, and the hyperdilute Radiesse will be applied to stimulate collagen and restore volume to improve skin texture.
+   A session typically takes around 30 to 45 minutes. The provider will start by preparing the area, and the hyperdilute Radiesse® will be applied to stimulate collagen and restore volume to improve skin texture.
 </p>
 <p class="services-details-two__text-2">
    The procedure is comfortable and non-invasive, with most patients experiencing only mild warmth or pressure. Results continue to improve over time as the body responds with increased collagen production.

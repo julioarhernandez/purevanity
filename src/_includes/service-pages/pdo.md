@@ -178,14 +178,7 @@
            <p>Botox® for dynamic wrinkles and fine lines.</p>
        </div>
    </li>
-   <li>
-       <div class="icon">
-           <span class="fa fa-check"></span>
-       </div>
-       <div class="text">
-           <p>Laser treatments for skin tightening and resurfacing.</p>
-       </div>
-   </li>
+   
    <li>
        <div class="icon">
            <span class="fa fa-check"></span>

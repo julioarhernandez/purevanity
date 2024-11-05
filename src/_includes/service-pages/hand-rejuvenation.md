@@ -145,7 +145,7 @@
    Alternatives to Hand Rejuvenation
 </h3>
 <p class="services-details-two__text-2">
-   While Radiesse® is a popular choice for non-surgical hand rejuvenation, other options include hyaluronic acid fillers, laser treatments, and chemical peels to address skin texture and pigmentation. For those looking to address multiple aging signs on the hands, combining treatments may provide optimal results.
+   While Radiesse® is a popular choice for non-surgical hand rejuvenation, other options include hyaluronic acid fillers and chemical peels to address skin texture and pigmentation. For those looking to address multiple aging signs on the hands, combining treatments may provide optimal results.
 </p>
 <p class="services-details-two__text-2">
    Consulting with a qualified provider will help you determine the best treatment or combination of treatments based on your goals.

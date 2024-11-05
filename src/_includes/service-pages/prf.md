@@ -145,7 +145,7 @@
    Alternatives to Platelet-Rich Fibrin (PRF)
 </h3>
 <p class="services-details-two__text-2">
-   While PRF offers a natural and effective treatment option, other alternatives may also suit your goals. Microneedling with hyaluronic acid, laser treatments, and dermal fillers are popular for skin rejuvenation, while hair transplants and topical hair growth products can complement PRF for hair restoration.
+   While PRF offers a natural and effective treatment option, other alternatives may also suit your goals. Microneedling with hyaluronic acid and dermal fillers are popular for skin rejuvenation, while hair transplants and topical hair growth products can complement PRF for hair restoration.
 </p>
 <p class="services-details-two__text-2">
    Consulting with a qualified professional will help determine whether PRF is the right treatment for you, or if a combination of treatments would provide the best results for your unique skin or hair concerns.
