@@ -10,7 +10,7 @@ permalink: /treatments/
 <section class="services-page">
   <div class="container">
     {% for serviceCategory in services.serviceCategories %}
-    <div class="row">
+    <div class="row" id="{{ serviceCategory.title | slugify }}">
       <div class="col-12 col-md-10 m-md-auto m-lg-0">
         <h3 class="section-subtitle__title mb-3">
           {{ serviceCategory.title }}

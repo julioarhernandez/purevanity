@@ -215,7 +215,7 @@ permalink: /
 <!--Feature One End-->
 
 <!--Services Three Start-->
-<section class="services-three">
+<section class="services-three home">
   <div class="container">
     <div class="services-three__top">
       <div class="row">
@@ -242,111 +242,9 @@ permalink: /
     </div>
     <div class="services-three__bottom">
       <div class="row">
-        <!--Services Three Single Start-->
-        <!-- <div
-          class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-          data-wow-delay="100ms"
-        >
-          <div class="services-three__single">
-            <div class="services-three__shape-1">
-              <img
-                src="/assets/images/shapes/services-three-shape-1.png"
-                alt=""
-              />
-            </div>
-            <div class="services-three__icon">
-              <span class="icon-meditation"></span>
-            </div>
-            <h3 class="services-three__title">
-              <a href="body-treatments.html">Relaxation</a>
-            </h3>
-            <p class="services-three__text">
-              Sed quia magni doles eos qui ration volupta tem sequi nesciunt
-              eque porro.
-            </p>
-          </div>
-        </div> -->
-        <!--Services Three Single End-->
-        <!--Services Three Single Start-->
-        <!-- <div
-          class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="services-three__single">
-            <div class="services-three__shape-1">
-              <img
-                src="/assets/images/shapes/services-three-shape-1.png"
-                alt=""
-              />
-            </div>
-            <div class="services-three__icon">
-              <span class="icon-facial-massage"></span>
-            </div>
-            <h3 class="services-three__title">
-              <a href="massages.html">Massage</a>
-            </h3>
-            <p class="services-three__text">
-              Sed quia magni doles eos qui ration volupta tem sequi nesciunt
-              eque porro.
-            </p>
-          </div>
-        </div> -->
-        <!--Services Three Single End-->
-        <!--Services Three Single Start-->
-        <!-- <div
-          class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-          data-wow-delay="300ms"
-        >
-          <div class="services-three__single">
-            <div class="services-three__shape-1">
-              <img
-                src="/assets/images/shapes/services-three-shape-1.png"
-                alt=""
-              />
-            </div>
-            <div class="services-three__icon">
-              <span class="icon-spa"></span>
-            </div>
-            <h3 class="services-three__title">
-              <a href="thermo-stone.html">Hot Stone</a>
-            </h3>
-            <p class="services-three__text">
-              Sed quia magni doles eos qui ration volupta tem sequi nesciunt
-              eque porro.
-            </p>
-          </div>
-        </div> -->
-        <!--Services Three Single End-->
-        <!--Services Three Single Start-->
-        <!-- <div
-          class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
-          data-wow-delay="400ms"
-        >
-          <div class="services-three__single">
-            <div class="services-three__shape-1">
-              <img
-                src="/assets/images/shapes/services-three-shape-1.png"
-                alt=""
-              />
-            </div>
-            <div class="services-three__icon">
-              <span class="icon-hand-cream"></span>
-            </div>
-            <h3 class="services-three__title">
-              <a href="hydro-therapy.html">Hydro</a>
-            </h3>
-            <p class="services-three__text">
-              Sed quia magni doles eos qui ration volupta tem sequi nesciunt
-              eque porro.
-            </p>
-          </div>
-        </div> -->
-        <!--Services Three Single End-->
-
-        {% for serviceCategory in services.serviceCategories %} {% for service
-        in serviceCategory.services %}
+        {% for serviceCategory in services.serviceCategories %}
         <div
-          class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+          class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
           data-wow-delay="{{ loop.index0 | times(100) }}ms"
         >
           <div class="services-three__single">
@@ -357,22 +255,19 @@ permalink: /
               />
             </div>
             <div class="services-three__icon">
-              <span class="{{ service.icon }}"></span>
+              <span class="fa {{ serviceCategory.icon }}"></span>
             </div>
             <h3 class="services-three__title">
-              <a
-                href="/treatments/{{ serviceCategory.title | slug }}/{{
-                  service.title | slugify
-                }}/"
-                >{{ service.title }}</a
-              >
+              <a href="/treatments/#{{ serviceCategory.title | slugify }}">{{
+                serviceCategory.title
+              }}</a>
             </h3>
             <p class="services-three__text">
-              {{ service.smallDescription }}
+              {{ serviceCategory.smallDescription }}
             </p>
           </div>
         </div>
-        {% endfor %} {% endfor %}
+        {% endfor %}
       </div>
       <div class="services-three__btn-box">
         <a href="/treatments/" class="services-three__btn thm-btn"

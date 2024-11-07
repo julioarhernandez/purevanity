@@ -5831,6 +5831,7 @@ ul {
   margin-bottom: 30px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  text-align: center;
 }
 
 .services-three__single:hover {
@@ -5855,8 +5856,9 @@ ul {
 }
 
 .services-three__icon {
-  position: relative;
-  display: inline-block;
+      position: relative;
+    display: inline-block;
+
 }
 
 .services-three__icon span {
@@ -5868,6 +5870,9 @@ ul {
   transition: all 500ms linear;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
+}
+.services-three.home .services-three__icon span {
+  font-size: 32px
 }
 
 .services-three__single:hover .services-three__icon span {
@@ -7489,6 +7494,10 @@ text-align: center;
 }
 .services-page .row ~ .row{
   margin: 30px 0;
+}
+
+.services-page .row[id] {
+  scroll-margin-top: 140px ;
 }
 
 
