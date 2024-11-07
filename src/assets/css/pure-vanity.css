@@ -1895,6 +1895,31 @@ ul {
   z-index: 30;
 }
 
+.main-slider-home {
+  position: relative;
+  overflow: hidden;
+}
+
+.main-slider-home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(--background-image);
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.5s ease;
+  z-index: -1; /* Place behind content */
+}
+
+.main-slider-home > * {
+  position: relative;
+  z-index: 1;
+}
+
+
 .image-layer {
   position: absolute;
   top: 0;
@@ -2324,14 +2349,14 @@ ul {
   transform: scale(1.15);
 } */
 
-.main-slider-three:before {
+.main-slider-three:after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(30, 28, 32, .60);
+  background-color: rgb(222 150 141 / 30%);
   z-index: -1;
 }
 

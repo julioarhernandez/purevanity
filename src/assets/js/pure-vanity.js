@@ -1009,7 +1009,6 @@
     });
   }
 
-  //change background dynamically
   const section = $(".main-slider-home");
 
   // Array of image URLs
@@ -1019,23 +1018,25 @@
     "/assets/images/hero-woman-3.jpg",
     "/assets/images/hero-woman-4.jpg",
     "/assets/images/hero-woman-5.jpg",
-    "/assets/images/hero-woman-6.jpg",
   ];
 
   let currentIndex = 0;
 
+  // Initial background image
+  section.css("--background-image", `url(${images[currentIndex]})`);
+
   function changeBackground() {
     currentIndex = (currentIndex + 1) % images.length; // Cycle through images
 
-    // Fade out, change image, then fade back in
-    section.fadeOut(500, function () {
-      section.css("background-image", `url(${images[currentIndex]})`);
-      section.fadeIn(500);
+    // Change background image with a fade effect
+    section.fadeTo(700, 0, function () {
+      section.css("--background-image", `url(${images[currentIndex]})`);
+      section.fadeTo(700, 1);
     });
   }
 
   // Set interval to change background every 4 seconds
-  setInterval(changeBackground, 4000);
+  setInterval(changeBackground, 7000);
 
   // Collapsible service detail navigation
 
