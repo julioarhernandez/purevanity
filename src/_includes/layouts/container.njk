@@ -188,10 +188,7 @@
               </div>
               <div class="main-header__top-right">
                 <div class="main-header__social">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-facebook"></i></a>
-                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  {% include "social.njk" %}
                 </div>
                 <div class="main-header__btn-box">
                   <a href="/contact/" class="thm-btn main-header__btn"
@@ -299,12 +296,7 @@
         </ul>
         <!-- /.mobile-nav__contact -->
         <div class="mobile-nav__top">
-          <div class="mobile-nav__social">
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-facebook-square"></a>
-            <a href="#" class="fab fa-pinterest-p"></a>
-            <a href="#" class="fab fa-instagram"></a>
-          </div>
+          <div class="mobile-nav__social">{% include "social.njk" %}</div>
           <!-- /.mobile-nav__social -->
         </div>
         <!-- /.mobile-nav__top -->
