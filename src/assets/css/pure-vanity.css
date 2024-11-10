@@ -4396,11 +4396,13 @@ ul {
 }
 
 .feature-one__single-one-content p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 30px;
   letter-spacing: 0.1em;
   color: var(--pure-vanity-white);
+  font-family: var(--pure-vanity-font-two);
+  padding: 0 20px;
 }
 
 .feature-one__btn {

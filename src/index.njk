@@ -111,21 +111,27 @@ permalink: /
 <section class="feature-one">
   <div class="container">
     <div class="row">
-      <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+      {% for promotion in promotions.promotions %}
+      <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="{{ loop.index * 100 }}ms">
         <div class="feature-one__single-one">
           <div class="feature-one__single-one-img">
-            <img src="/assets/images/hours1.jpg" alt="" />
+            <img src="{{ promotion.image }}" alt="" />
             <div class="feature-one__single-one-content">
-              <span>Current Promotions</span>
-              <h2>-30%</h2>
-              <p>NEW YEARS DEAL</p>
-              <a href="/treatments/" class="thm-btn feature-one__btn"
-                >visit now</a
-              >
+              <span>{{ promotion.title }}</span>
+              <h2>
+                {% if promotion.price %}
+                  ${{ promotion.price }}
+                {% else %}
+                  -{{ promotion.discount }}%
+                {% endif %}
+              </h2>
+              <p>{{ promotion.description | safe }}</p>
+              <a href="{{site.phoneUrl }}" class="thm-btn feature-one__btn">{{ promotion.buttonText }}</a>
             </div>
           </div>
         </div>
       </div>
+      {% endfor %}
       <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
         <div class="feature-one__single-two">
           <h3 class="feature-one__single-two-title">
