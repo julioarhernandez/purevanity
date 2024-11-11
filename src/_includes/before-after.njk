@@ -1,6 +1,11 @@
 <h3 class="services-details-two__title-2">
    Before & After
 </h3>
+{% if service.before_after_text %}
+<p class="services-details-two__text-2">
+   {{ service.before_after_text }}
+</p>
+{% endif %}
 <div class="before-and-after__img-box">
     <div class="before-after">
         <div class="before-after-twentytwenty" id="wrinkle-before-after">

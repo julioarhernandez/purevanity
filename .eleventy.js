@@ -160,6 +160,7 @@ module.exports = function (eleventyConfig) {
           faq: service.faq,
           before: service.before,
           after: service.after,
+          before_after_text: service.before_after_text,
         });
       });
     });

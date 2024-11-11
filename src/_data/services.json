@@ -110,7 +110,8 @@
           "image": "/assets/images/services/services-details-two-img-1.jpg",
           "thumbnail": "/assets/images/services/sculptra.jpeg",
           "before": "/assets/images/radiesse-bbl-before.jpg",
-          "after": "/assets/images/radiesse-bbl-after.jpg"
+          "after": "/assets/images/radiesse-bbl-after.jpg",
+          "before_after_text": "Discover the difference in lift, volume, and enhanced contours achieved through Radiesse Brazilian Butt Lift. These before-and-after photos highlight the natural-looking, fuller shape and firmer feel clients experience with this non-surgical enhancement."
         },
 
         {
@@ -127,9 +128,8 @@
           "longDescription": "kybella.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
-          "thumbnail": "/assets/images/services/kybella.jpeg",
-          "before": "/assets/images/kybella-before.jpg",
-          "after": "/assets/images/kybella-after.jpg"
+          "thumbnail": "/assets/images/services/kybella.jpeg"
+    
         }
       ]
     },
@@ -145,7 +145,10 @@
           "longDescription": "jaw-contouring.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
-          "thumbnail": "/assets/images/services/jaw.jpeg"
+          "thumbnail": "/assets/images/services/jaw.jpeg",
+          "before": "/assets/images/kybella-before.jpg",
+          "after": "/assets/images/kybella-after.jpg",
+          "before_after_text": "Jaw contouring treatments help achieve a sharper, more defined jawline. These before-and-after images highlight how clients have gained a more structured and contoured jawline, enhancing their facial balance and creating a more chiseled appearance."
         },
         {
           "title": "Chin Contouring",
@@ -153,7 +156,10 @@
           "longDescription": "chin-contouring.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
-          "thumbnail": "/assets/images/services/chin.jpeg"
+          "thumbnail": "/assets/images/services/chin.jpeg",
+          "before": "/assets/images/kybella-before.jpg",
+          "after": "/assets/images/kybella-after.jpg",
+          "before_after_text": "Chin contouring treatments create a more balanced and defined profile, enhancing the natural contours of your face. These before-and-after photos showcase the smoother, refined look that helps clients feel more confident and photo-ready."
         },
         {
           "title": "Non-surgical rhinoplasty",
