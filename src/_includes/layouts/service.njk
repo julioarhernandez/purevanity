@@ -261,8 +261,14 @@
                   <article>
                     {% set longDescriptionPath = "service-pages/" ~
                     service.longDescription | slug %} {% include
-                    longDescriptionPath %} {% set data = service.faq %} {%
-                    include "faq.njk"%}
+                    longDescriptionPath %} 
+                    
+                    {% set data = service.faq %} 
+                    {% include "faq.njk"%}
+                    
+                    {% if service.before %}
+                      {% include "before-after.njk" %}
+                    {% endif %}
                   </article>
                 </section>
               </div>

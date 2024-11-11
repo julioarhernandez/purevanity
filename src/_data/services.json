@@ -108,7 +108,9 @@
           "longDescription": "radiesse-bbl.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
-          "thumbnail": "/assets/images/services/sculptra.jpeg"
+          "thumbnail": "/assets/images/services/sculptra.jpeg",
+          "before": "/assets/images/radiesse-bbl-before.jpg",
+          "after": "/assets/images/radiesse-bbl-after.jpg"
         },
 
         {
@@ -125,7 +127,9 @@
           "longDescription": "kybella.md",
           "icon": "icon-meditation",
           "image": "/assets/images/services/services-details-two-img-1.jpg",
-          "thumbnail": "/assets/images/services/kybella.jpeg"
+          "thumbnail": "/assets/images/services/kybella.jpeg",
+          "before": "/assets/images/kybella-before.jpg",
+          "after": "/assets/images/kybella-after.jpg"
         }
       ]
     },
