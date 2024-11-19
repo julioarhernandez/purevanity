@@ -53,7 +53,9 @@ permalink: /contact/
         <div class="contact-page__right">
           <div class="contact-page__content">
             <form
-              action="assets/inc/sendemail.php"
+              id="my-form"
+              action="https://formspree.io/f/xvgoqrzr"
+              method="POST"
               class="contact-page__form contact-form-validated"
               novalidate="novalidate"
             >
@@ -91,13 +93,19 @@ permalink: /contact/
                   ></textarea>
                 </div>
                 <div class="contact-page__btn-box">
-                  <button type="submit" class="thm-btn contact-page__btn">
+                  <button
+                    type="submit"
+                    id="my-form-button"
+                    class="thm-btn contact-page__btn"
+                  >
                     Send a message
                   </button>
                 </div>
               </div>
             </form>
-            <div class="result"></div>
+            <div class="result">
+              <p id="my-form-status"></p>
+            </div>
           </div>
         </div>
       </div>

@@ -253,7 +253,9 @@
               <div class="contact-one__right">
                 <div class="contact-one__content">
                   <form
-                    action="assets/inc/sendemail.php"
+                    id="my-form"
+                    action="https://formspree.io/f/xvgoqrzr"
+                    method="POST"
                     class="contact-one__form contact-form-validated"
                     novalidate="novalidate"
                   >
@@ -276,18 +278,9 @@
                           />
                         </div>
                       </div>
-                      <div class="col-xl-6">
+                      <div class="col-xl-12">
                         <div class="contact-one__form-input-box">
                           <input type="text" placeholder="Phone" name="Phone" />
-                        </div>
-                      </div>
-                      <div class="col-xl-6">
-                        <div class="contact-one__form-input-box">
-                          <input
-                            type="text"
-                            placeholder="Select Service"
-                            name="Select Service"
-                          />
                         </div>
                       </div>
                     </div>
@@ -299,13 +292,19 @@
                         ></textarea>
                       </div>
                       <div class="contact-one__btn-box">
-                        <button type="submit" class="thm-btn contact-one__btn">
+                        <button
+                          type="submit"
+                          id="my-form-button"
+                          class="thm-btn contact-one__btn"
+                        >
                           Send a message
                         </button>
                       </div>
                     </div>
                   </form>
-                  <div class="result"></div>
+                  <div class="result">
+                    <p id="my-form-status"></p>
+                  </div>
                 </div>
               </div>
             </div>

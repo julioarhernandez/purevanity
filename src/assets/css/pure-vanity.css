@@ -6546,6 +6546,17 @@ ul {
   flex-direction: column;
 }
 
+#my-form-status{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--pure-vanity-base);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
 /*--------------------------------------------------------------
 # Instagram Two
 --------------------------------------------------------------*/
