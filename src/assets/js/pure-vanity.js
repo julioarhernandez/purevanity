@@ -261,78 +261,78 @@
     });
   }
 
-  if ($(".contact-form-validated").length) {
-    $(".contact-form-validated").each(function () {
-      let self = $(this);
-      self.validate({
-        // initialize the plugin
-        rules: {
-          name: {
-            required: true,
-          },
-          email: {
-            required: true,
-            email: true,
-          },
-          message: {
-            required: true,
-          },
-          subject: {
-            required: true,
-          },
-        },
-        submitHandler: function (form) {
-          // sending value with ajax request
-          $.post(
-            $(form).attr("action"),
-            $(form).serialize(),
-            function (response) {
-              $(form).parent().find(".result").append(response);
-              $(form).find('input[type="text"]').val("");
-              $(form).find('input[type="email"]').val("");
-              $(form).find("textarea").val("");
-            }
-          );
-          return false;
-        },
-      });
-    });
-  }
+  // if ($(".contact-form-validated").length) {
+  //   $(".contact-form-validated").each(function () {
+  //     let self = $(this);
+  //     self.validate({
+  //       // initialize the plugin
+  //       rules: {
+  //         name: {
+  //           required: true,
+  //         },
+  //         email: {
+  //           required: true,
+  //           email: true,
+  //         },
+  //         message: {
+  //           required: true,
+  //         },
+  //         subject: {
+  //           required: true,
+  //         },
+  //       },
+  //       submitHandler: function (form) {
+  //         // sending value with ajax request
+  //         $.post(
+  //           $(form).attr("action"),
+  //           $(form).serialize(),
+  //           function (response) {
+  //             $(form).parent().find(".result").append(response);
+  //             $(form).find('input[type="text"]').val("");
+  //             $(form).find('input[type="email"]').val("");
+  //             $(form).find("textarea").val("");
+  //           }
+  //         );
+  //         return false;
+  //       },
+  //     });
+  //   });
+  // }
 
   // mailchimp form
-  if ($(".mc-form").length) {
-    $(".mc-form").each(function () {
-      var Self = $(this);
-      var mcURL = Self.data("url");
-      var mcResp = Self.parent().find(".mc-form__response");
+  // if ($(".mc-form").length) {
+  //   $(".mc-form").each(function () {
+  //     var Self = $(this);
+  //     var mcURL = Self.data("url");
+  //     var mcResp = Self.parent().find(".mc-form__response");
 
-      Self.ajaxChimp({
-        url: mcURL,
-        callback: function (resp) {
-          // appending response
-          mcResp.append(function () {
-            return '<p class="mc-message">' + resp.msg + "</p>";
-          });
-          // making things based on response
-          if (resp.result === "success") {
-            // Do stuff
-            Self.removeClass("errored").addClass("successed");
-            mcResp.removeClass("errored").addClass("successed");
-            Self.find("input").val("");
+  //     Self.ajaxChimp({
+  //       url: mcURL,
+  //       callback: function (resp) {
+  //         // appending response
+  //         mcResp.append(function () {
+  //           return '<p class="mc-message">' + resp.msg + "</p>";
+  //         });
+  //         // making things based on response
+  //         if (resp.result === "success") {
+  //           // Do stuff
+  //           Self.removeClass("errored").addClass("successed");
+  //           mcResp.removeClass("errored").addClass("successed");
+  //           Self.find("input").val("");
 
-            mcResp.find("p").fadeOut(10000);
-          }
-          if (resp.result === "error") {
-            Self.removeClass("successed").addClass("errored");
-            mcResp.removeClass("successed").addClass("errored");
-            Self.find("input").val("");
+  //           mcResp.find("p").fadeOut(10000);
+  //         }
+  //         if (resp.result === "error") {
+  //           Self.removeClass("successed").addClass("errored");
+  //           mcResp.removeClass("successed").addClass("errored");
+  //           Self.find("input").val("");
 
-            mcResp.find("p").fadeOut(10000);
-          }
-        },
-      });
-    });
-  }
+  //           mcResp.find("p").fadeOut(10000);
+  //         }
+  //       },
+  //     });
+  //   });
+  // }
 
   if ($(".video-popup").length) {
     $(".video-popup").magnificPopup({
@@ -1053,6 +1053,22 @@
 
     // Optional: Close other open sublists
     $(".service-details-sublist").not($(this).next()).slideUp(300);
+  });
+
+  // when user clicks on button submit with class footer-widget__newsletter-btn get the input name="EMAIL" and open the email software with the email address
+  $(".footer-widget__newsletter-btn").on("click", function () {
+    event.preventDefault();
+    // get email from input with attribute name="EMAIL"
+    var email = $("footer input[name='EMAIL']").val();
+
+    // set the email in the body of the email
+    // only do this is email is not empty
+    if (email && email.length > 0) {
+      var mailto_link =
+        "mailto:?to=graci@purevanitymedspa.com&subject=Contact from website&body=Email: " +
+        email;
+      win = window.open(mailto_link, "emailWindow");
+    }
   });
 
   // $("select:not(.ignore)").niceSelect();
