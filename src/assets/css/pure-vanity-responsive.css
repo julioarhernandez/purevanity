@@ -1100,6 +1100,13 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1750px) {}
 
+@media only screen and (min-width: 1200px) {
+    .feature-one__single-two {
+        min-height: 491px;
+      }
+}
+
+
 
 
 
