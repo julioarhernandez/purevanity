@@ -1090,7 +1090,7 @@
             "Thanks for reaching out! We’ve received your submission and will get back to you soon!";
           form.reset();
 
-          document.getElementById("my-form-submit").disabled = true;
+          document.getElementById("my-form-button").disabled = true;
         } else {
           response.json().then((data) => {
             if (Object.hasOwn(data, "errors")) {
